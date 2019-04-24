@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+
+<title>Nanocitation</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords"
+	content="Nanopublication, Nanopub, Npub, Text-Snippet, text snippet, Landing Page, Nanopublication aggregation">
+<meta name="author" content="Erika Fabris">
+
+<meta name="robots" content="all, index, follow" />
+<meta name="googlebot" content="all, index, follow" />
+<!-- GOOGLE -->
+<meta name="msnbot" content="all, index, follow" />
+<!-- MSN -->
+<meta name="slurp" content="all, index, follow" />
+<!-- YAHOO -->
+<meta name="copyright" content="" />
+
+<!-- <link rel="stylesheet" th:href="@{'/css/styles/layout.css'}" -->
+<!-- 	type="text/css" /> -->
+<!-- <link rel="stylesheet" -->
+<!-- 	href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" /> -->
+<!-- <link rel="stylesheet" th:href="@{'/css/styles/fonts.css'}" -->
+<!-- 	type="text/css" media="all" /> -->
+<!-- <link rel="shortcut icon" th:src="@{'/img/favicon.ico'}"> -->
+
+<link rel="stylesheet" th:href="@{'/css/bootstrap.min.css'}">
+<link rel="stylesheet" th:href="@{'/css/bootstrap-theme.min.css'}">
+<link rel="stylesheet" th:href="@{'/css/fontAwesome.css'}">
+<link rel="stylesheet" th:href="@{'/css/hero-slider.css'}">
+<link rel="stylesheet" th:href="@{'/css/owl-carousel.css'}">
+<link rel="stylesheet" th:href="@{'/css/datepicker.css'}">
+<link rel="stylesheet" th:href="@{'/css/style.css'}">
+<link rel="stylesheet" th:href="@{'/css/animate.css'}">
+
+<link
+	href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"
+	rel="stylesheet">
+
+<script th:src="@{'/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js'}"></script>
+
+</head>
+
+<body>
+
+	<div class="wrap">
+		<header id="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<button id="primary-nav-button" type="button">Home</button>
+						<div class="logo">
+							<img th:src="@{'/img/Logo_righttext.png'}" alt="Logo">
+						</div>
+						<nav id="primary-nav" class="dropdown cf">
+							<ul class="dropdown menu">
+								<li><a th:href="@{'/index'}">Home</a></li>
+								<li><a th:href="@{'/index'}">About</a>
+									<ul class="sub-menu">
+
+										<li><a th:href="@{'/index'}">Nanopublication</a>
+										<li><a th:href="@{'/index'}">Citation</a>
+									</ul></li>
+								<li><a class="scrollTo" data-scrollTo="tools" href="#">Generate
+										Text-Snippet</a>
+									<ul class="sub-menu">
+
+										<li><a th:href="@{'/form'}">Single Nanopublication</a>
+										<li><a th:href="@{'/formset'}">Set of
+												Nanopublications</a></li>
+										<li><a th:href="@{'/restdoc'}">REST API documentation</a></li>
+									</ul>
+							</ul>
+						</nav>
+						<!-- / #primary-nav -->
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+
+
+
+	<section class="banner" id="top">
+		<div class="container">
+			<div class="row">
+
+
+				<div class="col-md-12">
+					<div class="banner-caption">
+						<div class="line-dec"></div>
+						<h2>404</h2>
+						<span>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable</span>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<section class="our-services" id="tools">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-heading">
+						<span>Our Services</span>
+						<h2>What We Provide</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="service-item">
+						<div class="icon">
+							<a th:href="@{'/form'}"><img th:src="@{'/img/Single.png'}"
+								alt=""></a>
+						</div>
+						<h4>Text Snippet for a Single Nanopublication</h4>
+						<p>Automatic creation of citation text snippets and landing
+							pages for a single nanopublication.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service-item">
+						<div class="icon">
+							<a href="#"><img th:src="@{'/img/Multiple.png'}" alt=""></a>
+						</div>
+						<h4>Text Snippet for a Set of Nanopublication</h4>
+						<p>Automatic creation of citation text snippets and landing
+							pages for a set of nanopublications.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service-item">
+						<div class="icon">
+							<a href="#"><img th:src="@{'/img/Rest.png'}" alt=""></a>
+						</div>
+						<h4>
+							REST API <br>
+						</h4>
+						<p>
+							Rest API documentation. <br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="footer" style="margin-bottom: 0px">
+		<img class="full-width" alt="Unipd" th:src="@{'/img/bannerLogo.png'}" />
+
+	</section>
+
+	<div class="sub-footer">
+		<p>Copyright &copy; 2019 - Information Management Systems (IMS)
+			Research Group, University of Padua, Padua, Italy
+	</div>
+
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+		type="text/javascript"></script>
+	<script>
+		window.jQuery
+				|| document
+						.write('<script src="@{\'/js/vendor/jquery-1.11.2.min.js\'}"><\/script>')
+	</script>
+
+	<script th:src="@{'/js/vendor/bootstrap.min.js'}"></script>
+
+	<script th:src="@{'/js/datepicker.js'}"></script>
+	<script th:src="@{'/js/plugins.js'}"></script>
+	<script th:src="@{'/js/main.js'}"></script>
+</body>
+
+</html>

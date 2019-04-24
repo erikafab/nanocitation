@@ -1,0 +1,92 @@
+<citationMetadata xmlns="http://nanocitation.dei.unipd.it/citationmetadata">
+<wstxns1:content xmlns:wstxns1="http://nanocitation.dei.unipd.it/content">
+<content xmlns="">
+<assertion>
+<assertion>
+ABCA1 ATP binding cassette subfamily A member 1 - Amyloidosis
+</assertion>
+</assertion>
+<subject>gene-disease biomarker association</subject>
+</content>
+</wstxns1:content>
+<wstxns2:creators xmlns:wstxns2="http://nanocitation.dei.unipd.it/creators">
+<creator xmlns="">
+<pers>
+<given_name>núria</given_name>
+<family_name>queralt rosinach</family_name>
+<personID>0000-0003-0169-8159</personID>
+</pers>
+<org/>
+</creator>
+</wstxns2:creators>
+<wstxns3:contributors xmlns:wstxns3="http://nanocitation.dei.unipd.it/contributors">
+<contributor xmlns="">
+<pers>
+<given_name>janet</given_name>
+<family_name>piñero</family_name>
+<personID>0000-0003-1244-7654</personID>
+</pers>
+<org/>
+</contributor>
+<contributor xmlns="">
+<pers>
+<given_name>laura i.</given_name>
+<family_name>furlong</family_name>
+<personID>0000-0002-9383-528X</personID>
+</pers>
+<org/>
+</contributor>
+<contributor xmlns="">
+<pers>
+<given_name>núria</given_name>
+<family_name>queralt rosinach</family_name>
+<personID>0000-0003-0169-8159</personID>
+</pers>
+<org/>
+</contributor>
+<contributor xmlns="">
+<pers>
+<given_name>ferran</given_name>
+<family_name>sanz</family_name>
+<personID>0000-0002-7534-7661</personID>
+</pers>
+<org/>
+</contributor>
+<contributor xmlns="">
+<pers>
+<given_name>àlex</given_name>
+<family_name>bravo serrano</family_name>
+<personID>0000-0001-5999-6269</personID>
+</pers>
+<org/>
+</contributor>
+</wstxns3:contributors>
+<wstxns4:evidenceAuthors xmlns:wstxns4="http://nanocitation.dei.unipd.it/evidence_authors">
+<evidenceAuthor xmlns="">
+<given_name>V</given_name>
+<family_name>Hirsch-Reinshagen</family_name>
+<personID/>
+</evidenceAuthor>
+<evidenceAuthor xmlns="">
+<given_name>BL</given_name>
+<family_name>Burgess</family_name>
+<personID/>
+</evidenceAuthor>
+<evidenceAuthor xmlns="">
+<given_name>CL</given_name>
+<family_name>Wellington</family_name>
+<personID/>
+</evidenceAuthor>
+</wstxns4:evidenceAuthors>
+<wstxns5:identifier xmlns:wstxns5="http://nanocitation.dei.unipd.it/citationmetadata/id">
+http://rdf.disgenet.org/resource/nanopub/NP2536.RAEs1AHB1X4feFIt7huPO_-_SLkVZ4RbNne4JlhkSQNvM
+</wstxns5:identifier>
+<wstxns6:creationDate xmlns:wstxns6="http://nanocitation.dei.unipd.it/citationmetadata/creation_date">2017-10-17</wstxns6:creationDate>
+<wstxns7:rightsHolder xmlns:wstxns7="http://nanocitation.dei.unipd.it/citationmetadata/rights_holder">IBIGroup</wstxns7:rightsHolder>
+<wstxns8:platform xmlns:wstxns8="http://nanocitation.dei.unipd.it/citationmetadata/platform">disgenetv3.0rdf</wstxns8:platform>
+<wstxns9:version xmlns:wstxns9="http://nanocitation.dei.unipd.it/citationmetadata/version">v5.0.0</wstxns9:version>
+<wstxns10:evidenceRefernce xmlns:wstxns10="http://nanocitation.dei.unipd.it/citationmetadata/evidence_reference">http://identifiers.org/pubmed/19116777</wstxns10:evidenceRefernce>
+<wstxns11:getLandingpageUrl xmlns:wstxns11="http://nanocitation.dei.unipd.it/citationmetadata/landing_page_url">
+http://nanocitation.dei.unipd.it/landingpage/RAEs1AHB1X4feFIt7huPO_-_SLkVZ4RbNne4JlhkSQNvM
+</wstxns11:getLandingpageUrl>
+</citationMetadata>

@@ -1,0 +1,165 @@
+Term element: nanopubIdentifier
+	URI: http://purl.org/dc/terms/identifier
+	Label: NanopubIdentifier
+	Minimum: 1
+	Maximum: 1
+	Type of Value: literal
+	Definition: The URI that identifies nanopublication.
+
+Term element: creator
+	URI: http://purl.org/dc/terms/creator
+	Label: Creator
+	Minimum: 1
+	Maximum: unbounded
+	Type of Value: non-literal
+	Defined as: agent
+	Definition: An agent (a person, a organisation or a software agent) primarily responsible for creating the nanopublication.
+
+Term element: contributor
+	URI: http://purl.org/dc/terms/contributor
+	Label: Contributor
+	Minimum: 0
+	Maximum: unbounded
+	Type of Value: non-literal
+	Defined as: agent
+	Definition: An agent (a person, an organisation or a service) responsible for making contributions to the creation of the nanopublication.
+	
+
+Term element: creationDate
+	URI: http://purl.org/dc/terms/date
+	Label: CreationDate
+	Minimum: 0
+	Maximum: 1
+	Type of Value: literal
+	Syntax Encoding Scheme URI = http://purl.org/dc/terms/W3CDTF
+	Definition: Date of creation of the nanopublication.
+	
+Term element: rightsHolder
+	URI: http://purl.org/dc/terms/rightsHolder
+	Label: RightsHolder
+	Minimum: 0
+	Maximum: 1
+	Type of Value: literal
+	Definition: A person or organisation owning or managing rights over the nanopublication.
+	
+Term element: content
+	Label: Content
+	Minimum: 1
+	Maximum: 1
+	Type of Value: non-literal
+	Defined as: descriptionTopic
+	Definition: The topic of the nanopublication and a description of the assertion
+	
+	
+Term element: platform
+	URI: http://purl.org/dc/elements/1.1/publisher
+	Label: Platform
+	Minimum: 0
+	Maximum: 1
+	Type of Value: literal
+	Definition: An entity responsible for making the nanopublication available.
+
+Term element: version
+	URI: http://purl.org/dc/terms/hasVersion
+	Label: Version
+	Minimum: 0
+	Maximum: 1
+	Type of Value: literal
+	Definition: The version of the platform.
+	
+Term element: evidenceReference
+	URI: http://purl.org/dc/terms/references
+	Label: EvidenceReference
+	Minimum: 0
+	Maximum: unbounded
+	Type of Value: literal
+	Definition: A related resource that is referenced as an assertion evidence.
+	
+Term element: evidenceAuthor
+	URI: http://purl.org/dc/terms/creator
+	Label: EvidenceAuthor
+	Minimum: 0
+	Maximum: unbounded
+	Type of Value: non-literal
+	Defined as: person
+	Definition: The person responsible authoring the evidence paper from which the assertion was extracted.
+	
+Term element: landingpageUrl
+	URI: http://purl.org/dc/terms/identifier
+	Label: LandingPageURL
+	Minimum: 1
+	Maximum: 1
+	Type of Value: literal
+	Definition: An identifier (URL) of the landingpage related to the nanopublication.
+
+
+
+Term element: agent
+	URI: http://xmlns.com/foaf/0.1/Agent
+	Label: Agent
+	Term element: pers
+		URI: http://xmlns.com/foaf/0.1/Person
+		Label: Pers
+		Minimum: 0
+		Maximum: 1
+		Type of Value: non-literal
+		Defined as: person
+		Definition: A person.
+	Term element: org
+		URI: http://xmlns.com/foaf/0.1/Organization
+		Label: Org
+		Minimum: 0
+		Maximum: 1
+		Type of Value: non-literal
+		Defined as: organisation
+		Definition: An organization.
+		
+		
+Term element: organisation
+	Term element: orgName
+		URI: http://xmlns.com/foaf/0.1/name
+		Label: OrgName
+		Minimum: 1
+		Maximum: 1
+		Type of Value: literal
+		Definition: The name of an organization.
+			
+			
+Term element: person		
+	Term element: given_name
+		URI: http://xmlns.com/foaf/0.1/givenname
+		Label: Given_name
+		Minimum: 0
+		Maximum: 1
+		Type of Value: literal
+		Definition: The given name of some person.
+	Term element: family_name
+		URI: http://xmlns.com/foaf/0.1/family_name
+		Label: FamilyName
+		Minimum: 0
+		Maximum: 1
+		Type of Value: literal
+		Definition: The family name of some person.
+	Term element: personID
+		URI: http://purl.org/dc/terms/identifier
+		Label: personID
+		Minimum: 0
+		Maximum: 1
+		Type of Value: literal
+		Definition: An identifier (ORDCID, Researcher ID) that distinguishes a person.
+		
+Term element: descriptionTopic
+	Term element: subject
+		URI: http://purl.org/dc/elements/1.1/subject
+		Label: Subject
+		Minimum: 0
+		Maximum: 1
+		Type of Value: literal
+		Definition: The given name of some person.
+	Term element: assertion
+		URI: http://purl.org/dc/elements/1.1/description
+		Label: Assertion
+		Minimum: 1
+		Maximum: unbounded
+		Type of Value: literal
+		Definition: An assertion content.

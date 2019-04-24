@@ -1,0 +1,74 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Metadata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="creator">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="person">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="givenName"/>
+                    <xs:element type="xs:string" name="familyName"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contributors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="person" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="givenName"/>
+                    <xs:element type="xs:string" name="familyName"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="creationdate">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:date" name="date"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="rightsholder"/>
+        <xs:element name="nanopubTopicAndAssertion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="descriptionTopic">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="subject"/>
+                    <xs:element type="xs:string" name="assertion"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="platform"/>
+        <xs:element name="evidenceauthors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="person" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="givenName"/>
+                    <xs:element type="xs:string" name="familyName"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="landingpageurl"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,812 @@
+apr 12, 2019 5:07:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start Logging
+apr 12, 2019 5:07:13 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 0 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP201781.RAdjXdjQvgRysJf_LrJEsDpu9cg24qjTGvS6RiekdbMQQ
+apr 12, 2019 5:07:26 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 13434567799
+apr 12, 2019 5:07:26 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 304
+apr 12, 2019 5:07:26 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:07:26 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 1 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1314461.RAeDQlgb9rNVxtWsrW-Jb2EcP9Z8ufyUjnboNrfHFMy3I
+apr 12, 2019 5:07:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10104482581
+apr 12, 2019 5:07:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 373
+apr 12, 2019 5:07:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:07:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 2 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP206563.RABfSDdK0Ozzs3o7Cx59xQPBcP5huK8ZCR-XkZIkhP54c
+apr 12, 2019 5:07:49 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 12785825875
+apr 12, 2019 5:07:49 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 336
+apr 12, 2019 5:07:49 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:07:49 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 3 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP509641.RA-260F3jrViqrVp_qPFz-Uj6QUrgMr065r_Cm0il-6Kg
+apr 12, 2019 5:08:06 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 16706776278
+apr 12, 2019 5:08:06 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 338
+apr 12, 2019 5:08:06 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:08:06 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 4 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP535011.RA_BLena_pV0R85Thp7Sq6lD7cXODiPo390Nh7tLbnIbg
+apr 12, 2019 5:08:26 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 20362519939
+apr 12, 2019 5:08:26 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 362
+apr 12, 2019 5:08:26 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:08:26 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 5 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP278925.RAB5XWqJfbk4kYxSSrH69HVAOfRbgcht-L-0v2VzQ78c4
+apr 12, 2019 5:08:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9838936227
+apr 12, 2019 5:08:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 337
+apr 12, 2019 5:08:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:08:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 6 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1377136.RABjejVG6nAh_eDNnV8LOColKTmVz1NHDjCpVz_RwrHWw
+apr 12, 2019 5:08:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10916127597
+apr 12, 2019 5:08:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 328
+apr 12, 2019 5:08:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:08:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 7 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP792518.RAlurvXGrxdc6wSSZaysziWxJe9wVWL0IcWCnIfFcyG0I
+apr 12, 2019 5:08:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10218336469
+apr 12, 2019 5:08:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 318
+apr 12, 2019 5:08:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:08:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 8 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP671227.RAchLceVrvWNdiew-uunMlBWMIiwjb2lYWqnta0m-JvQc
+apr 12, 2019 5:09:07 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9828316412
+apr 12, 2019 5:09:07 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 306
+apr 12, 2019 5:09:07 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:09:07 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 9 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1101570.RAYJ5Jrmrb-DBSmoXgH_XHi6RhUOiZrNMKLbZjmTn1_AE
+apr 12, 2019 5:09:16 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9450153586
+apr 12, 2019 5:09:16 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 361
+apr 12, 2019 5:09:16 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:09:16 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 10 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP751398.RAdkiG-cZ6p9JquQqUQ-Tzt6YG9qc7UcW53YGV7NvraG4
+apr 12, 2019 5:09:25 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8665938928
+apr 12, 2019 5:09:25 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 335
+apr 12, 2019 5:09:25 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:09:25 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 11 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP490163.RA1vLtfUv4l0RZ4MKj_9p7s7oEkc3x_tLnA4EbQdPdHKs
+apr 12, 2019 5:09:34 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8425686074
+apr 12, 2019 5:09:34 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 329
+apr 12, 2019 5:09:34 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:09:34 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 12 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1194625.RAId7Mk989W9tqbyYB17c_jiS2eDec84pc5KyEh5lTA6g
+apr 12, 2019 5:09:42 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8881101831
+apr 12, 2019 5:09:42 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 352
+apr 12, 2019 5:09:42 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:09:42 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 13 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP70734.RA-1Q8zdds-qOdCn6iLSxWdJNcHsv57CCZMirUSRelKko
+apr 12, 2019 5:09:53 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10794703419
+apr 12, 2019 5:09:53 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 364
+apr 12, 2019 5:09:53 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:09:53 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 14 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP38526.RAaZJ85_pn_WxoDSy6RlUGwpNOMkcZa3tlqnGEy_cpNmc
+apr 12, 2019 5:10:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9963986976
+apr 12, 2019 5:10:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 331
+apr 12, 2019 5:10:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 1
+apr 12, 2019 5:10:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 15 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP646128.RA-NRZfD8VByQsrh5bsk6CYMwSluypH5vVNfMPPxmChSE
+apr 12, 2019 5:10:15 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 12165878087
+apr 12, 2019 5:10:15 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 308
+apr 12, 2019 5:10:15 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:10:15 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 16 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1214799.RApJdmFO4QJes1v-EZd4h1imCLZCjy4PTxgeeRz0r4E8o
+apr 12, 2019 5:10:24 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8228597222
+apr 12, 2019 5:10:24 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 326
+apr 12, 2019 5:10:24 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:10:24 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 17 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP374520.RAxzcCBjrZNkWblZwCHDAWW4z5tYN5W0jXy_bgFfdfGGU
+apr 12, 2019 5:10:33 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9583058989
+apr 12, 2019 5:10:33 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 346
+apr 12, 2019 5:10:33 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:10:33 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 18 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP788115.RAJ-BC4x-qX49b2bqZZJW4bQTlWNfIFRmYy2k79t2YBbw
+apr 12, 2019 5:10:42 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8547866434
+apr 12, 2019 5:10:42 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 370
+apr 12, 2019 5:10:42 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:10:42 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 19 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1176804.RAFa_IuHWfDl2aqxtF32KICVggh1uWfCDilnwbB6cp3jA
+apr 12, 2019 5:10:51 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9729311975
+apr 12, 2019 5:10:51 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 316
+apr 12, 2019 5:10:51 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:10:51 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 20 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP661595.RA5XwP0MvhRaTBcfAQwYzbMRK5pTIC9Ta4uhHfafESyEM
+apr 12, 2019 5:11:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9929115205
+apr 12, 2019 5:11:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 334
+apr 12, 2019 5:11:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:11:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 21 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP877204.RAhcj-3Vj0GG4bFcJezbUqbTZfQXNJK9yaB5CK5u6p-Xo
+apr 12, 2019 5:11:10 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9035757518
+apr 12, 2019 5:11:10 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 334
+apr 12, 2019 5:11:10 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:11:10 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 22 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP370211.RA5v8euAI-0pOX84xMr_f3IaLXBqfUthYfwu4cNFBVfsE
+apr 12, 2019 5:11:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9103094187
+apr 12, 2019 5:11:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 330
+apr 12, 2019 5:11:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:11:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 23 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1022232.RA5vVpWYmMK7yyVEtKCYNzU2IKDxNaDy51jeAwoE2YP_s
+apr 12, 2019 5:11:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8255182212
+apr 12, 2019 5:11:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 313
+apr 12, 2019 5:11:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:11:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 24 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP969397.RA6rkK3Ye24zWN44kMv5WyH9E8ozl_89H4VwgaXF9c-_0
+apr 12, 2019 5:11:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8125572604
+apr 12, 2019 5:11:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 352
+apr 12, 2019 5:11:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:11:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 25 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP664957.RAzbFGf2im5Bf20YiMSqTHlZpUy_JA2hAHvFUMa4-PbI0
+apr 12, 2019 5:11:45 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9379931544
+apr 12, 2019 5:11:45 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 328
+apr 12, 2019 5:11:45 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:11:45 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 26 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP492103.RAeJ4-zj9zKOSf4G1MhmmkFkN1M0I2_Hlw_Y_PaTjDyy4
+apr 12, 2019 5:11:54 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9072608067
+apr 12, 2019 5:11:54 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 309
+apr 12, 2019 5:11:54 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:11:54 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 27 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP797306.RA3iKgRK2430GrL88Nee4PaYMYTIWUyrQFTbEJ7kBB2Mo
+apr 12, 2019 5:12:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8581584809
+apr 12, 2019 5:12:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 364
+apr 12, 2019 5:12:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:12:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 28 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP964829.RAhumxZANrhr0vAQcja7r2cvR6N3HHNU1bDwxaWYxteUg
+apr 12, 2019 5:12:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 24555480550
+apr 12, 2019 5:12:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 326
+apr 12, 2019 5:12:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:12:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 29 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP161217.RASi8E5ESG96aecKEdppdtE7ppo9IdcRHIGP3oxITi6EQ
+apr 12, 2019 5:12:38 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10146689440
+apr 12, 2019 5:12:38 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 349
+apr 12, 2019 5:12:38 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:12:38 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 30 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP948016.RAuM1Ph423xxu6E70E4t4Xo-WFrkMI9RhxutTpFlT2LK0
+apr 12, 2019 5:12:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9377102267
+apr 12, 2019 5:12:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 333
+apr 12, 2019 5:12:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:12:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 31 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP291709.RA-UZuokuK2y5eimJOOdoDIVnQiYz9vtRtgLpWBBZNrWQ
+apr 12, 2019 5:12:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9522647191
+apr 12, 2019 5:12:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 319
+apr 12, 2019 5:12:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:12:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 32 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP394860.RAh_plEJBXBYAut6VuvVpwE4n35NegiinYBEvkxEKwpng
+apr 12, 2019 5:13:09 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 12074703231
+apr 12, 2019 5:13:09 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 372
+apr 12, 2019 5:13:09 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:13:09 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 33 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1037830.RA_ESw9JxES2TKOxcD09ET4sO8_00KQdkK1Z9i_RPmU9o
+apr 12, 2019 5:13:19 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9888440155
+apr 12, 2019 5:13:19 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 298
+apr 12, 2019 5:13:19 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:13:19 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 34 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP984432.RADXK9TgYM4HdGDe2F0D2t9JU_DB34hF7LjkKiMkxFGTE
+apr 12, 2019 5:13:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9060568219
+apr 12, 2019 5:13:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 313
+apr 12, 2019 5:13:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:13:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 35 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP563016.RAn_pARfl5nfHQw4sdKO_rRHkQUSiD4brqANzeghLIQe4
+apr 12, 2019 5:13:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8545021542
+apr 12, 2019 5:13:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 300
+apr 12, 2019 5:13:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:13:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 36 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP404324.RAQ5vZ_Ge5NmY29vXdILe5vRXZKA8jM7csFfnVcFKPXI4
+apr 12, 2019 5:13:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10354996737
+apr 12, 2019 5:13:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 391
+apr 12, 2019 5:13:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:13:47 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 37 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1193688.RA0CbQFx9yzVpk-B9wI9JhiNJGM2Z4woVxSklktn0nn6s
+apr 12, 2019 5:13:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10725711029
+apr 12, 2019 5:13:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 318
+apr 12, 2019 5:13:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:13:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 38 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP204344.RA3_hYucDwM7l0ZY6UWp_n4PXhNLFsNpZzaEHtB6daIzI
+apr 12, 2019 5:14:06 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8445731520
+apr 12, 2019 5:14:06 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 344
+apr 12, 2019 5:14:06 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:14:06 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 39 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1211755.RAzGNhMrogQSNathAtZFXKn3ks1gdYhlZxKL4vZQ_T8v0
+apr 12, 2019 5:14:30 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 24550738867
+apr 12, 2019 5:14:30 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 333
+apr 12, 2019 5:14:30 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:14:30 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 40 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP509596.RASUZ_J_eJN07poH_soazhOjzGd9IB2DAI_WfIuPCAn6g
+apr 12, 2019 5:14:43 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 13114355173
+apr 12, 2019 5:14:43 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 311
+apr 12, 2019 5:14:43 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:14:43 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 41 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1056293.RALmJQKb_rXvUdwIOKPF8ypO-xjjFN3SmyBAczn7euxvo
+apr 12, 2019 5:14:54 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10650164488
+apr 12, 2019 5:14:54 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 311
+apr 12, 2019 5:14:54 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:14:54 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 42 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP284242.RABRHq7cQTuKm5itqonoyerP_aB3endxFqylWxDL2Ieio
+apr 12, 2019 5:15:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8594951682
+apr 12, 2019 5:15:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 336
+apr 12, 2019 5:15:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:15:03 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 43 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP151726.RAXWcYdVFp3rRAoXDx_4p1lz1xk3fY8Hkpp26FniMtyL0
+apr 12, 2019 5:15:16 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 13035544895
+apr 12, 2019 5:15:16 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 359
+apr 12, 2019 5:15:16 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:15:16 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 44 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1047165.RAoAtZMoS3FXm-bMFRecLQJK6HUr8TjM0ZCMxhbUsT_e8
+apr 12, 2019 5:15:25 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8762005372
+apr 12, 2019 5:15:25 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 358
+apr 12, 2019 5:15:25 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:15:25 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 45 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP518870.RALfTDjcZnHTUux_y-oRyOskGx4W3mezsky1ZHeAUfeBo
+apr 12, 2019 5:15:34 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9247870933
+apr 12, 2019 5:15:34 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 342
+apr 12, 2019 5:15:34 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:15:34 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 46 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP282113.RA3kGmHwKBYzA9slmVI8PkC4FIcqPOSEotKMjINRumsU8
+apr 12, 2019 5:15:41 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 7283838708
+apr 12, 2019 5:15:41 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 311
+apr 12, 2019 5:15:41 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:15:41 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 47 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP972212.RAkQYQBzl-A6MOo5FWYI09qMMZoVeY6PeU2MaGFl-0JIw
+apr 12, 2019 5:15:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 7170760145
+apr 12, 2019 5:15:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 311
+apr 12, 2019 5:15:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:15:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 48 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP167475.RAiozTLRlOvdF1YqvGDRP6eGidxs_H30FvBP8cKFi9gHQ
+apr 12, 2019 5:15:56 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 7657364772
+apr 12, 2019 5:15:56 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 366
+apr 12, 2019 5:15:56 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:15:56 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 49 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP847924.RAuAV4AnGUJmGiolyj6IyuKaFJip7zGi2r3j4L-CXjxa4
+apr 12, 2019 5:16:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8546556836
+apr 12, 2019 5:16:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 314
+apr 12, 2019 5:16:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:16:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 50 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1189765.RAJkRvwh1eVILyPSFCd4752ImEYSnm3_j3ikfLZIbW1VQ
+apr 12, 2019 5:16:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 7811947599
+apr 12, 2019 5:16:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 293
+apr 12, 2019 5:16:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:16:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 51 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1094353.RAUfUhqAFbZgoWwGoQcwd0fy3ckeHIZCx6D_RX3eAfD9s
+apr 12, 2019 5:16:21 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9005448182
+apr 12, 2019 5:16:21 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 334
+apr 12, 2019 5:16:21 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:16:21 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 52 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP81494.RA0BtZ6yOHwpQMi-mPp84OzUIj4CFtFiqDLotO_w2hWjo
+apr 12, 2019 5:16:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 7809132215
+apr 12, 2019 5:16:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 371
+apr 12, 2019 5:16:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:16:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 53 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1054577.RAPQxLcSpqtTw_zccT_qbVgZ8vNtFRm1uscmb-VE29LOg
+apr 12, 2019 5:16:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 7317031815
+apr 12, 2019 5:16:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 325
+apr 12, 2019 5:16:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:16:36 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 54 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1179381.RAvF1Mb1_nooIaKyHOX97Lhd7YtrjPi9t0gSdOFDnmrls
+apr 12, 2019 5:16:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10080054928
+apr 12, 2019 5:16:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 361
+apr 12, 2019 5:16:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:16:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 55 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP209021.RA40QUlNLEwCHmoo1iPrWXlnUn56bX9Du68E8umwSOTX8
+apr 12, 2019 5:16:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8459907963
+apr 12, 2019 5:16:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 332
+apr 12, 2019 5:16:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:16:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 56 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP348036.RAcJaPfYGihy3zsswJ81sp6TGAMwHaGt2unH01ZMNvXgI
+apr 12, 2019 5:17:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8928561608
+apr 12, 2019 5:17:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 361
+apr 12, 2019 5:17:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:17:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 57 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP462313.RA4krnhpInRhRwbA6BTxbgB5nlKrK8b93jWVRjh0KAKv8
+apr 12, 2019 5:17:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 7887945755
+apr 12, 2019 5:17:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 366
+apr 12, 2019 5:17:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:17:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 58 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1273141.RA4asBnb48lnf8XiXG3H25y6rPxbwHs4U-BTIZR59CryQ
+apr 12, 2019 5:17:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8075715674
+apr 12, 2019 5:17:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 329
+apr 12, 2019 5:17:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:17:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 59 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1387921.RA5wsgtDny1Q2LhYO0mGt2kXnEtjwFY413OKSAmfi26WA
+apr 12, 2019 5:17:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9080730873
+apr 12, 2019 5:17:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 338
+apr 12, 2019 5:17:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:17:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 60 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP389353.RAqn5kE_3nRDJHUkyey_p0t8dgiLTz3oR09LFE3Nl-j5U
+apr 12, 2019 5:17:39 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9710190918
+apr 12, 2019 5:17:39 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 365
+apr 12, 2019 5:17:39 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:17:39 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 61 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP236002.RAnWJg8jcfPTTg--lDYARCn_rcsIii9NU4s1p9l8jxV5Q
+apr 12, 2019 5:17:51 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 12335868112
+apr 12, 2019 5:17:51 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 334
+apr 12, 2019 5:17:51 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:17:51 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 62 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP191625.RAHkaPhFMF6noeQnqth0smhW2Mn2jN6dmHC4gDFWvL0aA
+apr 12, 2019 5:18:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9714003706
+apr 12, 2019 5:18:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 372
+apr 12, 2019 5:18:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:18:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 63 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1350920.RAUR76ZiHQ_tOU3i_iY0I8L1ArVfaP5spLlzxTfUcAF7M
+apr 12, 2019 5:18:09 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8137092096
+apr 12, 2019 5:18:09 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 307
+apr 12, 2019 5:18:09 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:18:09 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 64 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1060666.RAnuWawPZ1IG-orZJsqDfa9cXvte2yhUHlbptBpvmTKag
+apr 12, 2019 5:18:19 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10041669306
+apr 12, 2019 5:18:19 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 325
+apr 12, 2019 5:18:19 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:18:19 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 65 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP791594.RAnDTOSz7COBpZi1ahOYB8ljD8A4vy1x9cvpWrAzzdxFk
+apr 12, 2019 5:18:27 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 7691746157
+apr 12, 2019 5:18:27 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 321
+apr 12, 2019 5:18:27 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:18:27 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 66 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP324260.RAwwwMGCFfV5N26faoQKKnrT6Lc1UbuLK_rUhixSmxnuk
+apr 12, 2019 5:18:43 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 16777303160
+apr 12, 2019 5:18:43 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 288
+apr 12, 2019 5:18:43 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:18:43 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 67 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP585902.RAEVWt0Fuuc3k6NtNyd-Ojtz7956WUU1-zcwvA8_brsNo
+apr 12, 2019 5:18:52 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8782118303
+apr 12, 2019 5:18:52 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 340
+apr 12, 2019 5:18:52 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:18:52 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 68 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1158630.RAj1cxMgvg0RZ1VlNd-WTjj2xzfiGIHXz-Km5D4Hkp4jA
+apr 12, 2019 5:19:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9010126937
+apr 12, 2019 5:19:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 337
+apr 12, 2019 5:19:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:19:01 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 69 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP520141.RAKy_Cgd57FtM6lQxxSlywDodN8hijg_ACuIsq7pPFem8
+apr 12, 2019 5:19:11 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9631322053
+apr 12, 2019 5:19:11 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 329
+apr 12, 2019 5:19:11 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:19:11 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 70 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP769040.RAiLT81JZcx3OWWWaCz4stnSyAAz5lx12LfL6b06wVPC4
+apr 12, 2019 5:19:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8862384907
+apr 12, 2019 5:19:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 315
+apr 12, 2019 5:19:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:19:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 71 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1208448.RAhDVZYghcKnadPAKEcEXcbxAgQaeL0kialuZSI0BB2kQ
+apr 12, 2019 5:19:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8178568916
+apr 12, 2019 5:19:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 379
+apr 12, 2019 5:19:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:19:28 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 72 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1108790.RA2W5fIi9whs22_KeRo-yBhUr-ciKexzmJiEgZT7kFhx4
+apr 12, 2019 5:19:37 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8953949025
+apr 12, 2019 5:19:37 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 307
+apr 12, 2019 5:19:37 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:19:37 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 73 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP683157.RA7cuAcjnv5EzVRd6rT-eiRNEVFmvSbxApRarrIMZaojw
+apr 12, 2019 5:19:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9007694975
+apr 12, 2019 5:19:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 330
+apr 12, 2019 5:19:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:19:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 74 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP444790.RAHj3zexguUClp1cAiQIFcuZwiZQtM2mAwKfVbfqeGjS4
+apr 12, 2019 5:19:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 11197415445
+apr 12, 2019 5:19:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 346
+apr 12, 2019 5:19:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:19:57 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 75 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP719951.RAqwl3oXgdCUlFYFI0qqPUbbGIH6hbNuvscn1eAelOYN8
+apr 12, 2019 5:20:11 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 13883390961
+apr 12, 2019 5:20:11 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 377
+apr 12, 2019 5:20:11 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:20:11 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 76 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP170596.RAvxB-kbzCisivxhOPUQ4DG2bMfjxoX52_Icjsvte5jYw
+apr 12, 2019 5:20:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9369326651
+apr 12, 2019 5:20:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 359
+apr 12, 2019 5:20:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:20:20 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 77 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP872233.RAbKjKaCEq-KviNspt-8a5fH3pAb0QkATRo9icpotUgRg
+apr 12, 2019 5:20:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8598771491
+apr 12, 2019 5:20:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 310
+apr 12, 2019 5:20:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:20:29 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 78 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP228158.RAy7InKh_r1BjAu2yk3OIhAiJFfcuuF4JMkVACygPHBZs
+apr 12, 2019 5:20:37 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8135220341
+apr 12, 2019 5:20:37 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 357
+apr 12, 2019 5:20:37 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:20:37 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 79 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1318361.RAjS01mePm3uiFYP1edHQaMJYjBqukEVdh1hoTkJ05acY
+apr 12, 2019 5:20:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9026094733
+apr 12, 2019 5:20:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 311
+apr 12, 2019 5:20:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:20:46 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 80 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP48452.RAnAepP5UjZVaMigRrpwtm-dvKWKDcDx8XZj7jqRk1pec
+apr 12, 2019 5:20:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9299803889
+apr 12, 2019 5:20:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 296
+apr 12, 2019 5:20:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 1
+apr 12, 2019 5:20:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 81 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP403077.RATGUdcPczsmvlSwhqNop4oZ3oVFO_acUEidMVx-gNiCE
+apr 12, 2019 5:21:05 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9420950212
+apr 12, 2019 5:21:05 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 320
+apr 12, 2019 5:21:05 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:21:05 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 82 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP954218.RA_7EASrWhdiYEONfdYjsJk_jzDP27QKGGt9Y2LKqFMzk
+apr 12, 2019 5:21:15 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9820942064
+apr 12, 2019 5:21:15 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 322
+apr 12, 2019 5:21:15 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:21:15 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 83 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP673570.RAO04x7esDgSW8LUpDY0k3AOXH9inCMMvelI0BBXDSAwE
+apr 12, 2019 5:21:22 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 7816446322
+apr 12, 2019 5:21:22 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 363
+apr 12, 2019 5:21:22 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:21:22 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 84 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1191360.RA3DxssYOrE1fbm5oKxju6QAlVhh-JrvLmPqdDAPiCN3w
+apr 12, 2019 5:21:31 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8219646689
+apr 12, 2019 5:21:31 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 316
+apr 12, 2019 5:21:31 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:21:31 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 85 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1038043.RA_wwgfpU_EMIfPJ5TAglfB3wZTz-MNudglVj_fmj_rD8
+apr 12, 2019 5:21:39 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8380342906
+apr 12, 2019 5:21:39 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 300
+apr 12, 2019 5:21:39 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:21:39 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 86 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP92457.RAkPfZnzrDz3eSd_w1vgNPgM5MQbKgpKGpZRY1VCmLZlk
+apr 12, 2019 5:21:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9111257920
+apr 12, 2019 5:21:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 349
+apr 12, 2019 5:21:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:21:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 87 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP374980.RABVKo_tzn_ZQoYw6glII620ydyLSjOuHQd9_gH0j9gDY
+apr 12, 2019 5:21:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 7199677505
+apr 12, 2019 5:21:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 317
+apr 12, 2019 5:21:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:21:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 88 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP958722.RAgNuWtR_XnyXqTmGVz0PmQ1PBizBum1stBYW35mzY-Mo
+apr 12, 2019 5:22:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8698855376
+apr 12, 2019 5:22:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 324
+apr 12, 2019 5:22:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:22:04 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 89 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP109286.RAON5bG2BGjQFp36gqEeqiYgIdJLzf3fa4lg1YdFQ96L4
+apr 12, 2019 5:22:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8347669448
+apr 12, 2019 5:22:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 339
+apr 12, 2019 5:22:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:22:12 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 90 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP269181.RAwW8KYjK7ve4KBlBiXiBsjSlOIp-wh6x7DL8u2eW8ty4
+apr 12, 2019 5:22:21 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8144474826
+apr 12, 2019 5:22:21 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 341
+apr 12, 2019 5:22:21 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:22:21 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 91 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP100028.RAPKmjqOWbBe484Qv7lpMuxToqmP7rsnGrL-iH46j-9jE
+apr 12, 2019 5:22:30 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9722199570
+apr 12, 2019 5:22:30 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 351
+apr 12, 2019 5:22:30 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:22:30 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 92 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1258249.RA5Lb94laEAlgz48ipFL9j_pSxMh-W50xKlkFVhN-H1xM
+apr 12, 2019 5:22:38 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8081567711
+apr 12, 2019 5:22:38 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 330
+apr 12, 2019 5:22:38 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:22:38 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 93 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP758513.RAhDnuVlUeYLTq6se14PIn5lPs9k7-Bceh4t-vlBHrZxo
+apr 12, 2019 5:22:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9234444243
+apr 12, 2019 5:22:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 350
+apr 12, 2019 5:22:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:22:48 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 94 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1158685.RASX_4gh-ElP-7182pGJpVopMQna9afW95MneYzofE1Gs
+apr 12, 2019 5:22:56 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 8786898347
+apr 12, 2019 5:22:56 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 356
+apr 12, 2019 5:22:56 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:22:56 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 95 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1057918.RAs3WxlOXkEYTfbkKmzusunvapN7Iora6IStQOc2EAp5c
+apr 12, 2019 5:23:10 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 13162886320
+apr 12, 2019 5:23:10 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 381
+apr 12, 2019 5:23:10 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:23:10 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 96 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1333731.RAR6K7cfJG8B4lOzPm16Rjd96lU0iDSBysYCkx9Bu5px0
+apr 12, 2019 5:23:24 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 14678549544
+apr 12, 2019 5:23:24 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 318
+apr 12, 2019 5:23:24 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:23:24 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 97 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP1024948.RAgJCGSKaHRdgaLJHHP9WijUd_1GXaJnBmxJF_7BBjugw
+apr 12, 2019 5:23:35 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10253911751
+apr 12, 2019 5:23:35 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 334
+apr 12, 2019 5:23:35 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:23:35 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 98 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP830557.RA-Nr24wYnDbKzT45XxqmpmQkv7zNU0l2yUyG8dWscBuc
+apr 12, 2019 5:23:44 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 9608783024
+apr 12, 2019 5:23:44 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 298
+apr 12, 2019 5:23:44 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:23:44 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Start experiment number 99 dis nanopub + http://rdf.disgenet.org/resource/nanopub/NP636460.RA4WyFaw4dQg-b1RPc7cfJkp9otebHueM5z9bcdpAFn90
+apr 12, 2019 5:23:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Running time 10635355228
+apr 12, 2019 5:23:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS length 342
+apr 12, 2019 5:23:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: EmptyTS 0
+apr 12, 2019 5:23:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Average Num
+apr 12, 2019 5:23:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Text Snippet average length334.85
+apr 12, 2019 5:23:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: TS empty fields average1.001551660296E10
+apr 12, 2019 5:23:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Meta empty fields average0.0
+apr 12, 2019 5:23:55 PM it.unipd.dei.nanocitation.evaluation.Evaluation main
+INFORMAZIONI: Total time average0.02 nanosec
