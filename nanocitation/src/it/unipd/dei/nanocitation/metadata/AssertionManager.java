@@ -644,7 +644,6 @@ public class AssertionManager
 				assHumRe.add(gene + " - " + disease);
 				dt.setAssertion(assHumRe);
 				
-				System.out.println("\n dentro qui: " + dt.toString());
 				return dt;
 			}
 		}

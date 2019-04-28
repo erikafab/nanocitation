@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 
 <head>
 <meta charset="utf-8">
@@ -77,24 +77,24 @@
 
 <link rel="stylesheet"
 	href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" />
-<link rel="stylesheet" href="/nanocitation/css/styles/fonts.css"
+<link rel="stylesheet" th:href="@{'/css/styles/fonts.css'}"
 	type="text/css" media="all" />
-<link rel="shortcut icon" src="/nanocitation/img/favicon.ico">
+<link rel="shortcut icon" th:src="@{'/img/favicon.ico'}">
 
-<link rel="stylesheet" href="/nanocitation/css/bootstrap.min.css">
-<link rel="stylesheet" href="/nanocitation/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="/nanocitation/css/fontAwesome.css">
-<link rel="stylesheet" href="/nanocitation/css/hero-slider.css">
-<link rel="stylesheet" href="/nanocitation/css/owl-carousel.css">
-<link rel="stylesheet" href="/nanocitation/css/datepicker.css">
-<link rel="stylesheet" href="/nanocitation/css/style.css">
-<link rel="stylesheet" href="/nanocitation/css/animate.css">
+<link rel="stylesheet" th:href="@{'/css/bootstrap.min.css'}">
+<link rel="stylesheet" th:href="@{'/css/bootstrap-theme.min.css'}">
+<link rel="stylesheet" th:href="@{'/css/fontAwesome.css'}">
+<link rel="stylesheet" th:href="@{'/css/hero-slider.css'}">
+<link rel="stylesheet" th:href="@{'/css/owl-carousel.css'}">
+<link rel="stylesheet" th:href="@{'/css/datepicker.css'}">
+<link rel="stylesheet" th:href="@{'/css/style.css'}">
+<link rel="stylesheet" th:href="@{'/css/animate.css'}">
 
 <link
 	href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"
 	rel="stylesheet">
 
-<script src="/nanocitation/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<script th:src="@{'/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js'}"></script>
 
 </head>
 
@@ -108,13 +108,13 @@
 					<div class="col-md-12">
 						<button id="primary-nav-button" type="button">Home</button>
 						<div class="logo">
-							<img src="/nanocitation/img/Logo_righttext.png" alt="Logo">
+							<img th:src="@{'/img/Logo_righttext.png'}" alt="Logo">
 						</div>
 
 						<nav id="primary-nav" class="dropdown cf">
 							<ul class="dropdown menu">
-								<li><a href="/nanocitation/index">Home</a></li>
-								<li><a href="/nanocitation/index">About</a>
+								<li><a th:href="@{'/index'}">Home</a></li>
+								<li><a th:href="@{'/index'}">About</a>
 									<ul class="sub-menu">
 
 										<li><a class="scrollTo" data-scrollTo="nanopub" href="#">Nanopublication</a>
@@ -124,9 +124,9 @@
 										Text-Snippet</a>
 									<ul class="sub-menu">
 
-										<li><a href="/nanocitation/form">Single Nanopublication</a>
+										<li><a th:href="@{'/form'}">Single Nanopublication</a>
 										<li><a href="#">Set of Nanopublications</a></li>
-										<li><a href="/nanocitation/restdoc">REST API documentation</a></li>
+										<li><a th:href="@{'/restdoc'}">REST API documentation</a></li>
 									</ul>
 							</ul>
 						</nav>
@@ -167,7 +167,12 @@
 						<h2>Text Snippet</h2>
 					</div>
 
-					<p id="snippet">Núria Queralt Rosinach, Janet Piñero et al.(5), 2017-10-17, IBIGroup, gene-disease association: [(gene-disease biomarker association) ABCA1 ATP binding cassette subfamily A member 1 - Amyloidosis], DisGeNET, v5.0.0, V Hirsch-Reinshagen et al.(3), http://nanocitation.dei.unipd.it/landingpage/RAEs1AHB1X4feFIt7huPO_-_SLkVZ4RbNne4JlhkSQNvM</p>
+					<p id="snippet">Núria Queralt Rosinach, Janet Piñero et al.(5),
+						2017-10-17, IBIGroup, gene-disease association: [(gene-disease
+						biomarker association) ABCA1 ATP binding cassette subfamily A
+						member 1 - Amyloidosis], DisGeNET, v5.0.0, V Hirsch-Reinshagen et
+						al.(3),
+						http://nanocitation.dei.unipd.it/landingpage/RAEs1AHB1X4feFIt7huPO_-_SLkVZ4RbNne4JlhkSQNvM</p>
 
 				</div>
 			</div>
@@ -182,7 +187,11 @@
 					<div class="section-heading">
 						<h2>Nanopublication Information</h2>
 					</div>
-					<p><b>Link to the Nanopublication</b>: <a target="_blank" rel="noopener noreferrer" href="http://rdf.disgenet.org/nanopub-server/RAEs1AHB1X4feFIt7huPO_-_SLkVZ4RbNne4JlhkSQNvM">http://rdf.disgenet.org/resource/nanopub/NP2536.RAEs1AHB1X4feFIt7huPO_-_SLkVZ4RbNne4JlhkSQNvM</a></p>
+					<p>
+						<b>Link to the Nanopublication</b>: <a target="_blank"
+							rel="noopener noreferrer"
+							href="http://rdf.disgenet.org/nanopub-server/RAEs1AHB1X4feFIt7huPO_-_SLkVZ4RbNne4JlhkSQNvM">http://rdf.disgenet.org/resource/nanopub/NP2536.RAEs1AHB1X4feFIt7huPO_-_SLkVZ4RbNne4JlhkSQNvM</a>
+					</p>
 
 
 
@@ -193,19 +202,46 @@
 								Information:</button>
 							<div class="content">
 
-								<p><b>Creation Date</b>: 2017-10-17</p>
-								<p><b>Right Holder</b>: IBIGroup</p>
-								<p><b>Platform</b>: <a target="_blank" rel="noopener noreferrer" href="http://rdf.disgenet.org/v5.0.0/void/disgenetv3.0rdf">DisGeNET</a></p>
+								<p>
+									<b>Creation Date</b>: 2017-10-17
+								</p>
+								<p>
+									<b>Right Holder</b>: IBIGroup
+								</p>
+								<p>
+									<b>Platform</b>: <a target="_blank" rel="noopener noreferrer"
+										href="http://rdf.disgenet.org/v5.0.0/void/disgenetv3.0rdf">DisGeNET</a>
+								</p>
 
-								<p><b>Version</b>: v5.0.0</p>
+								<p>
+									<b>Version</b>: v5.0.0
+								</p>
 								<button id="creators" class="collapsible">Creators:</button>
 								<div class="content">
-									<p><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0003-0169-8159">Núria Queralt Rosinach</a><br></p>
+									<p>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0003-0169-8159">Núria Queralt
+											Rosinach</a><br>
+									</p>
 								</div>
 
 								<button id="collaborators" class="collapsible">Collaborators:</button>
 								<div class="content">
-									<p><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0003-1244-7654">Janet Piñero</a><br><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0002-9383-528X">Laura I. Furlong</a><br><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0003-0169-8159">Núria Queralt Rosinach</a><br><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0002-7534-7661">Ferran Sanz</a><br><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0001-5999-6269">Àlex Bravo Serrano</a><br></p>
+									<p>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0003-1244-7654">Janet Piñero</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0002-9383-528X">Laura I.
+											Furlong</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0003-0169-8159">Núria Queralt
+											Rosinach</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0002-7534-7661">Ferran Sanz</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0001-5999-6269">Àlex Bravo
+											Serrano</a><br>
+									</p>
 								</div>
 
 
@@ -214,43 +250,117 @@
 							<button id="assertion" class="collapsible">Assertion:</button>
 							<div class="content">
 
-								<p><p><b> Provenence Evidence Comment:</b> </p>Gene-disease associations inferred from text-mining the literature.<br><br><p><b> Assertion Description:</b> </p>[Several independent studies have shown this poorly lipidated apoE increases amyloid burden in mouse models of AD, demonstrating that apoE lipidation by ABCA1 affects key steps in amyloid deposition or clearance.]. Sentence from MEDLINE/PubMed, a database of the U.S. National Library of Medicine.
-<br><br><p><b> Assertion:</b> </p>[(gene-disease biomarker association) ABCA1 ATP binding cassette subfamily A member 1 - Amyloidosis]<br><br><p><b> Reference links:</b> </p><p><a target="_blank" rel="noopener noreferrer" href="http://identifiers.org/ncbigene/19">ABCA1 ATP binding cassette subfamily A member 1</a></p><p><a target="_blank" rel="noopener noreferrer" href="http://linkedlifedata.com/resource/umls/id/C0002726">Amyloidosis</a></p><p><a target="_blank" rel="noopener noreferrer" href="http://semanticscience.org/resource/SIO_001121">gene-disease biomarker association</a></p></p></p>
+								<p></p>
+								<p>
+									<b> Provenence Evidence Comment:</b>
+								</p>
+								Gene-disease associations inferred from text-mining the
+								literature.<br>
+								<br>
+								<p>
+									<b> Assertion Description:</b>
+								</p>
+								[Several independent studies have shown this poorly lipidated
+								apoE increases amyloid burden in mouse models of AD,
+								demonstrating that apoE lipidation by ABCA1 affects key steps in
+								amyloid deposition or clearance.]. Sentence from MEDLINE/PubMed,
+								a database of the U.S. National Library of Medicine. <br>
+								<br>
+								<p>
+									<b> Assertion:</b>
+								</p>
+								[(gene-disease biomarker association) ABCA1 ATP binding cassette
+								subfamily A member 1 - Amyloidosis]<br>
+								<br>
+								<p>
+									<b> Reference links:</b>
+								</p>
+								<p>
+									<a target="_blank" rel="noopener noreferrer"
+										href="http://identifiers.org/ncbigene/19">ABCA1 ATP
+										binding cassette subfamily A member 1</a>
+								</p>
+								<p>
+									<a target="_blank" rel="noopener noreferrer"
+										href="http://linkedlifedata.com/resource/umls/id/C0002726">Amyloidosis</a>
+								</p>
+								<p>
+									<a target="_blank" rel="noopener noreferrer"
+										href="http://semanticscience.org/resource/SIO_001121">gene-disease
+										biomarker association</a>
+								</p>
+								<p></p>
+								<p></p>
 
 							</div>
 
 							<button id="provanance" class="collapsible">Provenance:</button>
 							<div class="content">
 
-								<p><p><b>Assertion Generated by</b>: <a target="_blank" rel="noopener noreferrer" href="http://purl.obolibrary.org/obo/ECO_0000203">automatic assertion</a><br><a target="_blank" rel="noopener noreferrer" href="http://purl.obolibrary.org/obo/ECO_0000212">DisGeNET evidence - LITERATURE</a><br><b>Assertion Generation Description</b>: Gene-disease associations inferred from text-mining the literature.<br><br><b>Evidence Source</b>: <a target="_blank" rel="noopener noreferrer" href="http://identifiers.org/pubmed/19116777">http://identifiers.org/pubmed/19116777</a><p>Abstract:
-Several lines of evidence suggest that dysregulated lipid metabolism may
-participate in the pathogenesis of Alzheimer's disease (AD). Epidemiologic
-studies suggest that elevated mid-life plasma cholesterol levels may be
-associated with an increased risk of AD and that statin use may reduce the
-prevalence of AD. Cellular studies have shown that the levels and distribution of
-intracellular cholesterol markedly affect the processing of amyloid precursor
-protein into A beta peptides, which are the toxic species that accumulate as
-amyloid plaques in the AD brain. Most importantly, genetic evidence identifies
-apolipoprotein E, the major cholesterol carrier in the central nervous system, as
-the primary genetic risk factor for sporadic AD. In humans, apoE exists as three 
-major alleles (apoE2, apoE3, and apoE4), and inheritance of the apoE4 allele
-increases the risk of developing AD at an earlier age. However, exactly how apoE 
-functions in the pathogenesis of AD remains to be fully determined. Our studies
-have identified that the cholesterol transporter ABCA1 is a crucial regulator of 
-apoE levels and lipidation in the brain. Deficiency of ABCA1 leads to the loss of
-approximately 80% of apoE in the brain, and the residual 20% that remains is
-poorly lipidated. Several independent studies have shown this poorly lipidated
-apoE increases amyloid burden in mouse models of AD, demonstrating that apoE
-lipidation by ABCA1 affects key steps in amyloid deposition or clearance.
-Conversely, robust overexpression of ABCA1 in the brain promotes apoE lipidation 
-and nearly eliminates the formation of mature amyloid plaques. These studies show
-that the lipid binding capacity of apoE is a major mechanism of its function in
-the pathogenesis of AD, and suggest that increasing apoE lipidation may be of
-therapeutic importance for this devastating disease.</p></p></p>
+								<p></p>
+								<p>
+									<b>Assertion Generated by</b>: <a target="_blank"
+										rel="noopener noreferrer"
+										href="http://purl.obolibrary.org/obo/ECO_0000203">automatic
+										assertion</a><br>
+									<a target="_blank" rel="noopener noreferrer"
+										href="http://purl.obolibrary.org/obo/ECO_0000212">DisGeNET
+										evidence - LITERATURE</a><br>
+									<b>Assertion Generation Description</b>: Gene-disease
+									associations inferred from text-mining the literature.<br>
+									<br>
+									<b>Evidence Source</b>: <a target="_blank"
+										rel="noopener noreferrer"
+										href="http://identifiers.org/pubmed/19116777">http://identifiers.org/pubmed/19116777</a>
+								</p>
+								<p>Abstract: Several lines of evidence suggest that
+									dysregulated lipid metabolism may participate in the
+									pathogenesis of Alzheimer's disease (AD). Epidemiologic studies
+									suggest that elevated mid-life plasma cholesterol levels may be
+									associated with an increased risk of AD and that statin use may
+									reduce the prevalence of AD. Cellular studies have shown that
+									the levels and distribution of intracellular cholesterol
+									markedly affect the processing of amyloid precursor protein
+									into A beta peptides, which are the toxic species that
+									accumulate as amyloid plaques in the AD brain. Most
+									importantly, genetic evidence identifies apolipoprotein E, the
+									major cholesterol carrier in the central nervous system, as the
+									primary genetic risk factor for sporadic AD. In humans, apoE
+									exists as three major alleles (apoE2, apoE3, and apoE4), and
+									inheritance of the apoE4 allele increases the risk of
+									developing AD at an earlier age. However, exactly how apoE
+									functions in the pathogenesis of AD remains to be fully
+									determined. Our studies have identified that the cholesterol
+									transporter ABCA1 is a crucial regulator of apoE levels and
+									lipidation in the brain. Deficiency of ABCA1 leads to the loss
+									of approximately 80% of apoE in the brain, and the residual 20%
+									that remains is poorly lipidated. Several independent studies
+									have shown this poorly lipidated apoE increases amyloid burden
+									in mouse models of AD, demonstrating that apoE lipidation by
+									ABCA1 affects key steps in amyloid deposition or clearance.
+									Conversely, robust overexpression of ABCA1 in the brain
+									promotes apoE lipidation and nearly eliminates the formation of
+									mature amyloid plaques. These studies show that the lipid
+									binding capacity of apoE is a major mechanism of its function
+									in the pathogenesis of AD, and suggest that increasing apoE
+									lipidation may be of therapeutic importance for this
+									devastating disease.</p>
+								<p></p>
+								<p></p>
 								<button id="evidauthors" class="collapsible">Evidence
 									Authors:</button>
 								<div class="content">
-									<p><a target="_blank" rel="noopener noreferrer" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Hirsch-Reinshagen%20V%5BAuthor%5D&cauthor_uid=19116777">V Hirsch-Reinshagen</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Burgess%20BL%5BAuthor%5D&cauthor_uid=19116777">BL Burgess</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Wellington%20CL%5BAuthor%5D&cauthor_uid=19116777">CL Wellington</a><br></p>
+									<p>
+										<a target="_blank" rel="noopener noreferrer"
+											href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Hirsch-Reinshagen%20V%5BAuthor%5D&amp;cauthor_uid=19116777">V
+											Hirsch-Reinshagen</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Burgess%20BL%5BAuthor%5D&amp;cauthor_uid=19116777">BL
+											Burgess</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Wellington%20CL%5BAuthor%5D&amp;cauthor_uid=19116777">CL
+											Wellington</a><br>
+									</p>
 								</div>
 
 							</div>
@@ -262,7 +372,6 @@ therapeutic importance for this devastating disease.</p></p></p>
 			</div>
 		</div>
 	</section>
-
 
 	<section class="container-white" id="nanopub-meta">
 		<div class="container">
@@ -286,12 +395,12 @@ therapeutic importance for this devastating disease.</p></p></p>
 							<form id="form_get_metafile" onsubmit="get_action(this);">
 								<div class="row">
 									<div class="col-md-6 only-item">
-										<a href="/nanocitation/download/meta.xml" target="_blank"
+										<a th:href="@{'/downloads/metaex2.xml'}" target="_blank"
 											rel="noopener noreferrer">Get XML</a>
 										<!-- th:href="@{'/downloads/metaex1.xml'}" download="metadataXmlExample" -->
 									</div>
 									<div class="col-md-6 only-item">
-										<a href="/nanocitation/download/meta.json" target="_blank"
+										<a th:href="@{'/downloads/metaex2.json'}" target="_blank"
 											rel="noopener noreferrer">Get JSON</a>
 										<!-- th:href="@{'/downloads/metaex1.json'}" download="metadataJsonExample" -->
 									</div>
@@ -301,10 +410,9 @@ therapeutic importance for this devastating disease.</p></p></p>
 					</div>
 
 
+				</div>
+
 			</div>
-
-		</div>
-
 	</section>
 
 
@@ -356,7 +464,7 @@ therapeutic importance for this devastating disease.</p></p></p>
 
 
 	<section class="footer" style="margin-bottom: 0px">
-		<img class="full-width" alt="Unipd" src="/nanocitation/img/bannerLogo.png" />
+		<img class="full-width" alt="Unipd" th:src="@{'/img/bannerLogo.png'}" />
 
 	</section>
 
@@ -374,11 +482,11 @@ therapeutic importance for this devastating disease.</p></p></p>
 						.write('<script src="@{\'js/vendor/jquery-1.11.2.min.js\'}"><\/script>')
 	</script>
 
-	<script src="/nanocitation/js/vendor/bootstrap.min.js"></script>
+	<script th:src="@{'/js/vendor/bootstrap.min.js'}"></script>
 
-	<script src="/nanocitation/js/datepicker.js"></script>
-	<script src="/nanocitation/js/plugins.js"></script>
-	<script src="/nanocitation/js/main.js"></script>
+	<script th:src="@{'/js/datepicker.js'}"></script>
+	<script th:src="@{'/js/plugins.js'}"></script>
+	<script th:src="@{'/js/main.js'}"></script>
 </body>
 
 
@@ -429,4 +537,3 @@ therapeutic importance for this devastating disease.</p></p></p>
 
 
 </html>
-

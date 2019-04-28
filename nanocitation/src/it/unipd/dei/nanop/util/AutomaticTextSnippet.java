@@ -37,7 +37,7 @@
 //{
 //	
 //	public static final String NPURLSERVERDISGENET = "http://rdf.disgenet.org/nanopub-server/";
-//	private static final String LANDINGPAGEURL = "http://nanocitation.dei.unipd.it/landingpage/";
+//	private static final String LANDINGPAGEURL = "http://ims-ws.dei.unipd.it/nanop-ts-lp/landingpage/";
 //	private static final String URILASTPARTREGEX = "[A-Za-z0-9._#-]+";
 //	private static final String DISGENETURIREGEX = "http://rdf.disgenet.org/resource/nanopub/" + URILASTPARTREGEX;
 //	private static final String PROTEINATLAS = "http://www.proteinatlas.org" + "[A-Za-z0-9._#-//]+";

@@ -16,9 +16,6 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 
 /**
- * This is the Class where the Spring MVC is happend and where are located the
- * setting of view resolver which ThymeLeaf required for working properly
- * 
  * @author erika
  *
  */
@@ -32,9 +29,6 @@ public class MvcWebConfig implements WebMvcConfigurer
 	@Autowired
 	private ApplicationContext applicationContext;
 
-	/*
-	 * STEP 1 - Create SpringResourceTemplateResolver
-	 */
 	@Bean
 	public SpringResourceTemplateResolver templateResolver()
 	{
@@ -45,9 +39,7 @@ public class MvcWebConfig implements WebMvcConfigurer
 		return templateResolver;
 	}
 
-	/*
-	 * STEP 2 - Create SpringTemplateEngine
-	 */
+	
 	@Bean
 	public SpringTemplateEngine templateEngine()
 	{
@@ -57,9 +49,6 @@ public class MvcWebConfig implements WebMvcConfigurer
 		return templateEngine;
 	}
 
-	/*
-	 * STEP 3 - Register ThymeleafViewResolver
-	 */
 	@Override
 	public void configureViewResolvers(ViewResolverRegistry registry)
 	{

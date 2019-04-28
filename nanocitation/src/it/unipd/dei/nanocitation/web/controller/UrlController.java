@@ -26,13 +26,6 @@ import it.unipd.dei.nanocitation.web.model.LandingPage;
 import it.unipd.dei.nanocitation.web.model.CitationMetadata;
 
 /**
- * Questa è la classe che gestisce gli url che vengono digitati sulla barra
- * degli indirizzi e quindi di volta in volta in base al url vengono invocati i
- * relativi metodi per riferimenti approfonditi vedi: per la parte di back-end
- * https://spring.io/guides/gs/serving-web-content/
- * https://www.boraji.com/spring-mvc-5-hello-world-example-with-thymeleaf-template
- * per la parte di front-end https://www.thymeleaf.org/documentation.html
- * 
  * @author erika
  *
  */
@@ -42,7 +35,6 @@ public class UrlController
 {
 	private static final String LANDINGPAGEURL = "http://nanocitation.dei.unipd.it/landingpage/";
 	
-	// private final String DOWN_FILES_PATH = "/WEB-INF/downloads/";
 	
 	/**
 	 * This is a staticResoces which several Classes use for dictionary purpose
@@ -155,18 +147,10 @@ public class UrlController
 		{
 			return "errorNoSupported";
 		}
-		// catch (noDisgenetNpException e)
-		// {
-		// return "form";
-		// }
 		return "landingpagetemplate";
 	}
 	
-	/**
-	 * Questo invece è un metodo che visualizza una risorsa statica che deve
-	 * trovarsi però sempre nella cartella templates perchè ai framework piace
-	 * fare le cose in maniera magica
-	 */
+	
 	@GetMapping("/staticfile")
 	public String visualizzaUnaRisorsaStaticaHtml()
 	{
@@ -211,29 +195,5 @@ public class UrlController
 	 return "restdoc";
 	 }
 	
-	// Using HttpServletResponse
-//	 @GetMapping("downloads/Metadata")
-//	 public ResponseEntity<ByteArrayResource> downloadMeta(HttpServletRequest
-//	 request, HttpServletResponse resonse) throws IOException
-//	 {
-//	 String dataDirectory =
-//	 request.getServletContext().getRealPath(DOWN_FILES_PATH);
-//	 System.out.println(dataDirectory);
-//	 Path file = Paths.get(dataDirectory, "prova.txt");
-//	 if (Files.exists(file))
-//	 {
-//	 byte[] data = Files.readAllBytes(file);
-//	 ByteArrayResource resource = new ByteArrayResource(data);
-//	 System.out.println("OK");
-//	 return ResponseEntity.ok()
-//	 .header(HttpHeaders.CONTENT_DISPOSITION, "attachment;filename=" +
-//	 file.getFileName().toString())
-//	 .contentType(MediaType.TEXT_PLAIN).contentLength(data.length).body(resource);
-//	 }
-//	
-//	
-//	 return new ResponseEntity(HttpStatus.NO_CONTENT);
-//	
-//	 }
 	
 }

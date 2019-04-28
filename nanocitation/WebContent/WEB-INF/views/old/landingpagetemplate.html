@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+
+<style>
+.collapsible {
+	background-color: #777;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 25px;
+	font-family: 'Questrial', sans-serif;
+	font-weight: bold;
+}
+
+.active, .collapsible:hover {
+	background-color: #555;
+}
+
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+</style>
+<head>
+
+<title>Nanopublication Landing Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="">
+<meta name="keywords"
+	content="Nanopublication, Nanopub, Npub, Text-Snippet, text snippet, Landing Page, Nanopub Aggregation, Nanopublication aggregation">
+<meta name="author" content="Erika Fabris">
+
+<meta name="robots" content="all, index, follow" />
+<meta name="googlebot" content="all, index, follow" />
+<!-- GOOGLE -->
+<meta name="msnbot" content="all, index, follow" />
+<!-- MSN -->
+<meta name="slurp" content="all, index, follow" />
+<!-- YAHOO -->
+<meta name="copyright" content="" />
+
+
+
+
+<link rel="stylesheet" th:href="@{'/css/styles/layout.css'}"
+	type="text/css" />
+<link rel="stylesheet"
+	href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" />
+<link rel="stylesheet" th:href="@{'/css/styles/fonts.css'}"
+	type="text/css" media="all" />
+<link rel="shortcut icon" th:href="@{'/img/favicon.ico'}">
+
+
+
+
+
+</head>
+
+
+
+<body id="top">
+	<div class="wrapper col1">
+		<div id="head">
+			<h1>
+				<a href="/nanocitation/index">Nanocitation</a> <img
+					th:src="@{'/img/personal-image.png'}" width="100" height="100"
+					style="float: right; margin: 15px 40px 15px 15px;"
+					onclick="window.open('http://ims.dei.unipd.it/', '_self')" /> <img
+					th:src="@{'/img/University_of_Padua.png'}" width="100" height="100"
+					style="float: right; margin: 15px -10px 15px 15px;"
+					onclick="window.open('https://www.unipd.it/en/', '_self')" />
+			</h1>
+			<p>Nanopublication Text Snippet/Landing Page Creator</p>
+		</div>
+	</div>
+
+	<div id="topnav">
+		<ul>
+			<li><a href="/nanocitation/index">Home</a></li>
+			<li><a href="/nanocitation/form">Single Nanopublication</a></li>
+			<li><a href="/nanocitation/form2">Set of Nanopublications</a></li>
+		</ul>
+	</div>
+	<div class="wrapper col2">
+		<div id="breadcrumb">
+			<ul>
+				<li class="first">You are here:</li>
+				<li>&#187;</li>
+				<li><a href="/nanocitation/index">Home</a></li>
+				<li>&#187;</li>
+				<li><a href="/nanocitation/form">Single Nanopublication
+						Text Snippet and Landing Page Creator</a></li>
+				<li>&#187;</li>
+				<li><a class="current" href="#">Landing Page</a></li>
+
+			</ul>
+		</div>
+	</div>
+
+
+
+	<div class="wrapper col4">
+		<div id="container">
+			<div id="content">
+
+
+				<div class="container">
+					<h1>NP Landing Page</h1>
+
+					<!-- <p id="clickNpInfo" onclick="openNPInfo()">push</p> -->
+
+					<h2>Text Snippet:</h2>
+
+					<p th:utext=${landingPage.textSnippet}></p>
+
+
+					<h2>Link to Nanopublication and Information:</h2>
+					<p th:utext=${landingPage.urlNP}></p>
+
+				</div>
+			</div>
+			<div id="container2">
+				<div id="content">
+					<button id="npInfo" class="collapsible">Nanopublication
+						Information:</button>
+					<div class="content">
+
+						<p th:utext=${landingPage.timeCreation}></p>
+						<p th:utext=${landingPage.rightHolder}></p>
+						<p th:utext=${landingPage.platform}></p>
+
+						<p th:utext=${landingPage.version}></p>
+						<button id="creators" class="collapsible">Creators:</button>
+						<div class="content">
+							<p th:utext=${landingPage.creators}></p>
+						</div>
+
+						<button id="authors" class="collapsible">Authors:</button>
+						<div class="content">
+							<p th:utext=${landingPage.authors}></p>
+						</div>
+
+
+					</div>
+
+					<button id="assertion" class="collapsible">Assertion:</button>
+					<div class="content">
+
+						<p th:utext=${landingPage.assertion}></p>
+
+					</div>
+
+					<button id="assertion" class="collapsible">Provenance:</button>
+					<div class="content">
+
+						<p th:utext=${landingPage.provenance}></p>
+						<button id="evidauthors" class="collapsible">Evidence
+							Authors:</button>
+						<div class="content">
+							<p th:utext=${landingPage.evidauthors}></p>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div class="wrapper col5">
+		<div id="footer">
+			<div id="details">
+				<div id="officialdetails"></div>
+				<div class="clear"></div>
+			</div>
+			<div id="copyright">
+				<p class="fl_left">
+					Copyright &copy; 2019 - All Rights Reserved - <a
+						href="http://ims.dei.unipd.it">Information Management Systems
+						(IMS) Research Group</a> <a href="https://www.unipd.it/en/">University
+						of Padua, Padua, Italy</a>
+
+					<!--Fabris Erika <a href="mailto:erika.fabris@unipd.it">erika.fabris@unipd.it</a> -->
+				</p>
+				<br class="clear" />
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+</body>
+
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+		coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.display == "block") {
+				content.style.display = "none";
+			} else {
+				content.style.display = "block";
+			}
+		});
+	}
+
+	document.getElementById("clickNpInfo").addEventListener("click",
+			openNPInfo());
+
+	function openNPInfo() {
+		var colla;
+
+		colla = document.getElementById("npInfo");
+
+		colla.classList.toggle("active");
+		colla.nextElementSibling.classList.toggle("show");
+
+		colla.click();
+
+	}
+
+	function copyFunction() {
+		var copyText = document.getElementById("snippet");
+		copyText.select();
+		document.execCommand("copy");
+
+		alert("Copied text snippet: " + copyText.value);
+	}
+</script>
+</html>

@@ -108,19 +108,23 @@
 					</div>
 					<div class="text-content" align="left">
 
-						... <br><br>
-						
-						Available method: 
-						<br><br>
-						Get the metadata in xml/json of the
-						nanopublication with id
-						<code>{id}</code>
-						:
+						You can use the Nanocitatation API to look up the metadata of
+						nanopublications and to get their text-snippet to be used in the
+						citation reference list. All Nanocitation REST API uses HTTP
+						Protocol and all services provided are GET HTTP methods returning
+						JSON, XML or TXT response. No authentication to access the API is
+						requested. <br> <br> Available method: <br> <br>
+						<br> <br><b> Get the metadata in XML/JSON of the nanopublication with
+							id <code>{id}</code>
+						</b> <br>The media response type is XML by default, a JSON
+						response can be requested by specifying it in the "Accept" header
+						of the HTTP request or by affix the file extension in the request
+						(as you can see in the below examples). <br>
 						<div class="codeheader" id="methodsheader_get">GET</div>
 						<div id="codebox">/rest/meta/{id}</div>
-						<br> Get the text snippet of the nanopublication with id
-						<code>{id}</code>
-						:
+						<br><br><br><b> Get the text snippet of the nanopublication with id
+						<code>{id}</code></b>
+						<br> <br>
 						<div class="codeheader" id="methodsheader_get">GET</div>
 						<div id="codebox">/rest/textsnippet/{id}</div>
 					</div>
@@ -140,38 +144,37 @@
 						<h2>Request Examples</h2>
 					</div>
 
-					Get the metadata in XML of the nanopublication with id
+					Get the metadata in XML format of the nanopublication with id
 					<code>RA2SzT2Q5GbcpOKF1d2iZJAUsu0EagaTTPxiZsUSPwa0s</code>
-					from cURL request:
+					from cURL request:<br> <br>
 					<div class="codeheader" id="codeheader_curl">Curl</div>
 					<div id="codebox">curl
 						http://nanocitation.dei.unipd.it/rest/meta/RA2SzT2Q5GbcpOKF1d2iZJAUsu0EagaTTPxiZsUSPwa0s</div>
-					or
+					or<br> <br>
 					<div class="codeheader" id="codeheader_curl">Curl</div>
 					<div id="codebox">curl
 						http://nanocitation.dei.unipd.it/rest/meta/RA2SzT2Q5GbcpOKF1d2iZJAUsu0EagaTTPxiZsUSPwa0s.xml</div>
-					or
+					or<br> <br>
 					<div class="codeheader" id="codeheader_curl">Curl</div>
 					<div id="codebox">curl
 						http://ims-ws.dei.unipd.it/nanocitation/rest/meta/RA2SzT2Q5GbcpOKF1d2iZJAUsu0EagaTTPxiZsUSPwa0s
 						-H "Accept: application/xml"</div>
 
-					<br> Get the metadata in JSON of the nanopublication with id
+					<br> Get the metadata in JSON format of the nanopublication with id
 					<code>RA2SzT2Q5GbcpOKF1d2iZJAUsu0EagaTTPxiZsUSPwa0s</code>
-					from cURL request:
+					from cURL request:<br> <br>
 					<div class="codeheader" id="codeheader_curl">Curl</div>
 					<div id="codebox">curl
 						http://nanocitation.dei.unipd.it/rest/meta/RA2SzT2Q5GbcpOKF1d2iZJAUsu0EagaTTPxiZsUSPwa0s.json</div>
-					or
+					or<br> <br>
 					<div class="codeheader" id="codeheader_curl">Curl</div>
 					<div id="codebox">curl
 						http://nanocitation.dei.unipd.it/rest/meta/RA2SzT2Q5GbcpOKF1d2iZJAUsu0EagaTTPxiZsUSPwa0s
 						-H "Accept: application/json"</div>
-
-					<br> Get the metadata in text snippet of the nanopublication
-					with id
+					<br> <br> <br> Get the metadata in text snippet of
+					the nanopublication with id
 					<code>RA2SzT2Q5GbcpOKF1d2iZJAUsu0EagaTTPxiZsUSPwa0s</code>
-					from HTTP request:
+					from simple HTTP request:<br> <br>
 					<div class="codeheader" id="codeheader_http">HTTP</div>
 					<div id="codebox">HTTP GET
 						http://nanocitation.dei.unipd.it/rest/textsnippet/RA2SzT2Q5GbcpOKF1d2iZJAUsu0EagaTTPxiZsUSPwa0s</div>

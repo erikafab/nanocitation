@@ -78,8 +78,7 @@
 
 										<li><a th:href="@{'/form'}">Single Nanopublication</a>
 										<li><a href="#">Set of Nanopublications</a></li>
-										<li><a th:href="@{'/restdoc'}">REST API
-												documentation</a></li>
+										<li><a th:href="@{'/restdoc'}">REST API documentation</a></li>
 									</ul>
 							</ul>
 						</nav>
@@ -93,24 +92,26 @@
 
 
 	<section class="banner" id="top">
-        <div class="container">
-            <div class="row">
+		<div class="container">
+			<div class="row">
 
 
-                <div class="col-md-12">
-                    <div class="banner-caption">
-                        <div class="line-dec"></div>
-                        <h2>Nanocitation</h2>
-                        <span>Automatically generate text snippet to cite nanopublications</span>
-                        <div class="blue-button">
-                            <a class="scrollTo" data-scrollTo="nanopub" href="#">Discover More</a>
-                        </div>
-                    </div>
+				<div class="col-md-12">
+					<div class="banner-caption">
+						<div class="line-dec"></div>
+						<h2>Nanocitation</h2>
+						<span>Automatically generate text snippet to cite
+							nanopublications</span>
+						<div class="blue-button">
+							<a class="scrollTo" data-scrollTo="nanopub" href="#">Discover
+								More</a>
+						</div>
+					</div>
 
-                </div>
-            </div>
-        </div>
-    </section>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<section class="container-white" id="nanopub">
 		<div class="container">
@@ -124,18 +125,18 @@
 
 
 					<div class="text-content" align="left">
-						Nanopublications are ``the smallest unit of publishable
+						Nanopublications are "the smallest unit of publishable
 						information: an assertion about anything that can be uniquely
-						identified and attributed to its author''. <br>The nanopublication
-						model was introduced to overcome the increasing difficulties to
-						retrieve, exchange and connect scientific results with the
-						underlying data, due to the ever-growing amount of scientific
-						papers and datasets. Moreover, a nanopublication is a publication
-						itself carrying all the information to be understood and re-used
-						by humans and individual atomic statements - i.e., assertions -
-						represented as RDF triples. A nanopublication comprehends all the
-						information related to a single assertion and it is structured
-						into three main named graphs:
+						identified and attributed to its author". <br>The
+						nanopublication model was introduced to overcome the increasing
+						difficulties to retrieve, exchange and connect scientific results
+						with the underlying data, due to the ever-growing amount of
+						scientific papers and datasets. Moreover, a nanopublication is a
+						publication itself carrying all the information to be understood
+						and re-used by humans and individual atomic statements - i.e.,
+						assertions - represented as RDF triples. A nanopublication
+						comprehends all the information related to a single assertion and
+						it is structured into three main named graphs:
 						<ul style="list-style-type: square; margin-left: 20px">
 							<li>the <em>assertion</em> graph containing the info related
 								to the scientific statement central to the nanopublication;
@@ -180,16 +181,20 @@
 						<h2>Citation</h2>
 					</div>
 
-
-
 					<div class="text-content" align="left">
-						...<br> <br>
-
-
-					</div>
-
-					<div class="text-content" align="center">
-						<a th:href="@{'/downloads/Metadata.txt'}" download="metadescriptionset4nanopub">Download metadata description set</a>
+						Nanocitations can be considered as publication theirself and are
+						said to be "citable", thus we provide a system to automatically
+						generate citation text-snippet to be included in the reference
+						lists. Our system to generate citation snippet guarantee
+						identification and access to the cited resource and provide both
+						human- and machine-readable citation, thus it follows the data
+						citation principles defined by <a
+							href="http://www.codata.org/task-groups/data-citation-standards-and-practices">CODATA-ICSTI</a>.
+						With our system you can get the text-snippet of a nanopublication,
+						browse its information and get a machine-readable format of the
+						citation metadata extracted from the nanopublication (<a th:href="@{'/downloads/Metadata.txt'}"
+							download="metadescriptionset4nanopub">Download metadata
+							description</a>).<br> <br>
 					</div>
 				</div>
 			</div>
@@ -234,7 +239,8 @@
 				<div class="col-md-4">
 					<div class="service-item">
 						<div class="icon">
-							<a th:href="@{'/restdoc'}"><img th:src="@{'/img/Rest.png'}" alt=""></a>
+							<a th:href="@{'/restdoc'}"><img th:src="@{'/img/Rest.png'}"
+								alt=""></a>
 						</div>
 						<h4>
 							REST API <br>

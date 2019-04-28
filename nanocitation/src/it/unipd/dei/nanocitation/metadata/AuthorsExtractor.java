@@ -183,7 +183,6 @@ public class AuthorsExtractor
 	private class URLReader
 	{
 
-		// fatto solo per pubmed (da fare switch eventualmente per altri)
 		public void extr(String url) throws Exception
 		{
 			String	inLine;

@@ -1,1 +1,121 @@
-{"identifier":"http://rdf.disgenet.org/resource/nanopub/NP2536.RAEs1AHB1X4feFIt7huPO_-_SLkVZ4RbNne4JlhkSQNvM","creationDate":"2017-10-17","rightsHolder":"IBIGroup","platform":"disgenetv3.0rdf","version":"v5.0.0","evidenceReference":"http://identifiers.org/pubmed/19116777","landingpageUrl":"http://nanocitation.dei.unipd.it/landingpage/RAEs1AHB1X4feFIt7huPO_-_SLkVZ4RbNne4JlhkSQNvM","content":[{"subject":"gene-disease biomarker association","assertion":["ABCA1 ATP binding cassette subfamily A member 1 - Amyloidosis"]}],"creator":[{"pers":{"given_name":"núria","family_name":"queralt rosinach","personID":"0000-0003-0169-8159"},"org":null}],"contributor":[{"pers":{"given_name":"janet","family_name":"piñero","personID":"0000-0003-1244-7654"},"org":null},{"pers":{"given_name":"laura i.","family_name":"furlong","personID":"0000-0002-9383-528X"},"org":null},{"pers":{"given_name":"núria","family_name":"queralt rosinach","personID":"0000-0003-0169-8159"},"org":null},{"pers":{"given_name":"ferran","family_name":"sanz","personID":"0000-0002-7534-7661"},"org":null},{"pers":{"given_name":"àlex","family_name":"bravo serrano","personID":"0000-0001-5999-6269"},"org":null}],"evidenceAuthor":[{"given_name":"V","family_name":"Hirsch-Reinshagen","personID":null},{"given_name":"BL","family_name":"Burgess","personID":null},{"given_name":"CL","family_name":"Wellington","personID":null}]}
+{
+	"identifier": "http://rdf.disgenet.org/resource/nanopub/NP887532.RA2SzT2Q5GbcpOKF1d2iZJAUsu0EagaTTPxiZsUSPwa0s",
+	"creationDate": "2017-10-17",
+	"rightsHolder": "IBIGroup",
+	"platform": "disgenetv3.0rdf",
+	"version": "v5.0.0",
+	"evidenceReference": "http://identifiers.org/pubmed/16489062",
+	"landingpageUrl": "http://nanocitation.dei.unipd.it/landingpage/RA2SzT2Q5GbcpOKF1d2iZJAUsu0EagaTTPxiZsUSPwa0s",
+	"content": [
+		{
+			"subject": "gene-disease association linked with genetic variation",
+			"assertion": [
+				"PTPN13 protein tyrosine phosphatase non-receptor type 13 - Carcinoma, Hepatocellular"
+			]
+		}
+	],
+	"creator": [
+		{
+			"pers": {
+				"given_name": "núria",
+				"family_name": "queralt rosinach",
+				"personID": "0000-0003-0169-8159"
+			},
+			"org": null
+		}
+	],
+	"contributor": [
+		{
+			"pers": {
+				"given_name": "janet",
+				"family_name": "piñero",
+				"personID": "0000-0003-1244-7654"
+			},
+			"org": null
+		},
+		{
+			"pers": {
+				"given_name": "laura i.",
+				"family_name": "furlong",
+				"personID": "0000-0002-9383-528X"
+			},
+			"org": null
+		},
+		{
+			"pers": {
+				"given_name": "núria",
+				"family_name": "queralt rosinach",
+				"personID": "0000-0003-0169-8159"
+			},
+			"org": null
+		},
+		{
+			"pers": {
+				"given_name": "ferran",
+				"family_name": "sanz",
+				"personID": "0000-0002-7534-7661"
+			},
+			"org": null
+		},
+		{
+			"pers": {
+				"given_name": "àlex",
+				"family_name": "bravo serrano",
+				"personID": "0000-0001-5999-6269"
+			},
+			"org": null
+		}
+	],
+	"evidenceAuthor": [
+		{
+			"given_name": "SH",
+			"family_name": "Yeh",
+			"personID": null
+		},
+		{
+			"given_name": "DC",
+			"family_name": "Wu",
+			"personID": null
+		},
+		{
+			"given_name": "CY",
+			"family_name": "Tsai",
+			"personID": null
+		},
+		{
+			"given_name": "TJ",
+			"family_name": "Kuo",
+			"personID": null
+		},
+		{
+			"given_name": "WC",
+			"family_name": "Yu",
+			"personID": null
+		},
+		{
+			"given_name": "YS",
+			"family_name": "Chang",
+			"personID": null
+		},
+		{
+			"given_name": "CL",
+			"family_name": "Chen",
+			"personID": null
+		},
+		{
+			"given_name": "CF",
+			"family_name": "Chang",
+			"personID": null
+		},
+		{
+			"given_name": "DS",
+			"family_name": "Chen",
+			"personID": null
+		},
+		{
+			"given_name": "PJ",
+			"family_name": "Chen",
+			"personID": null
+		}
+	]
+}

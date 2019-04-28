@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 
 <head>
 <meta charset="utf-8">
@@ -77,26 +77,28 @@
 
 <link rel="stylesheet"
 	href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" />
-<link rel="stylesheet" href="/nanocitation/css/styles/fonts.css"
+<link rel="stylesheet" th:href="@{'/css/styles/fonts.css'}"
 	type="text/css" media="all" />
-<link rel="shortcut icon" src="/nanocitation/img/favicon.ico">
+<link rel="shortcut icon" th:src="@{'/img/favicon.ico'}">
 
-<link rel="stylesheet" href="/nanocitation/css/bootstrap.min.css">
-<link rel="stylesheet" href="/nanocitation/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="/nanocitation/css/fontAwesome.css">
-<link rel="stylesheet" href="/nanocitation/css/hero-slider.css">
-<link rel="stylesheet" href="/nanocitation/css/owl-carousel.css">
-<link rel="stylesheet" href="/nanocitation/css/datepicker.css">
-<link rel="stylesheet" href="/nanocitation/css/style.css">
-<link rel="stylesheet" href="/nanocitation/css/animate.css">
+<link rel="stylesheet" th:href="@{'/css/bootstrap.min.css'}">
+<link rel="stylesheet" th:href="@{'/css/bootstrap-theme.min.css'}">
+<link rel="stylesheet" th:href="@{'/css/fontAwesome.css'}">
+<link rel="stylesheet" th:href="@{'/css/hero-slider.css'}">
+<link rel="stylesheet" th:href="@{'/css/owl-carousel.css'}">
+<link rel="stylesheet" th:href="@{'/css/datepicker.css'}">
+<link rel="stylesheet" th:href="@{'/css/style.css'}">
+<link rel="stylesheet" th:href="@{'/css/animate.css'}">
 
 <link
 	href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"
 	rel="stylesheet">
 
-<script src="/nanocitation/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<script th:src="@{'/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js'}"></script>
 
 </head>
+
+
 
 
 <body>
@@ -108,13 +110,13 @@
 					<div class="col-md-12">
 						<button id="primary-nav-button" type="button">Home</button>
 						<div class="logo">
-							<img src="/nanocitation/img/Logo_righttext.png" alt="Logo">
+							<img th:src="@{'/img/Logo_righttext.png'}" alt="Logo">
 						</div>
 
 						<nav id="primary-nav" class="dropdown cf">
 							<ul class="dropdown menu">
-								<li><a href="/nanocitation/index">Home</a></li>
-								<li><a href="/nanocitation/index">About</a>
+								<li><a th:href="@{'/index'}">Home</a></li>
+								<li><a th:href="@{'/index'}">About</a>
 									<ul class="sub-menu">
 
 										<li><a class="scrollTo" data-scrollTo="nanopub" href="#">Nanopublication</a>
@@ -124,9 +126,9 @@
 										Text-Snippet</a>
 									<ul class="sub-menu">
 
-										<li><a href="/nanocitation/form">Single Nanopublication</a>
+										<li><a th:href="@{'/form'}">Single Nanopublication</a>
 										<li><a href="#">Set of Nanopublications</a></li>
-										<li><a href="/nanocitation/restdoc">REST API documentation</a></li>
+										<li><a th:href="@{'/restdoc'}">REST API documentation</a></li>
 									</ul>
 							</ul>
 						</nav>
@@ -157,7 +159,6 @@
 
 
 
-
 	<section class="container-white" id="nanopub2">
 		<div class="container">
 			<div class="row">
@@ -167,7 +168,11 @@
 						<h2>Text Snippet</h2>
 					</div>
 
-					<p id="snippet">Núria Queralt Rosinach, Janet Piñero et al.(5), 2017-10-17, IBIGroup, gene-disease association: [(gene-disease biomarker association) NAT1 N-acetyltransferase 1 - Carcinogenesis], DisGeNET, v5.0.0, S Yamanaka et al.(4), http://nanocitation.dei.unipd.it/landingpage/RAoYM3ySzlMrorcFMKOep89Mqcwyp4CTLvegQb0syCBX4</p>
+					<p id="snippet">Núria Queralt Rosinach, Janet Piñero et al.(5),
+						2017-10-17, IBIGroup, gene-disease association: [(gene-disease
+						biomarker association) NAT1 N-acetyltransferase 1 -
+						Carcinogenesis], DisGeNET, v5.0.0, S Yamanaka et al.(4),
+						http://nanocitation.dei.unipd.it/landingpage/RAoYM3ySzlMrorcFMKOep89Mqcwyp4CTLvegQb0syCBX4</p>
 
 				</div>
 			</div>
@@ -182,7 +187,11 @@
 					<div class="section-heading">
 						<h2>Nanopublication Information</h2>
 					</div>
-					<p><b>Link to the Nanopublication</b>: <a target="_blank" rel="noopener noreferrer" href="http://rdf.disgenet.org/nanopub-server/RAoYM3ySzlMrorcFMKOep89Mqcwyp4CTLvegQb0syCBX4">http://rdf.disgenet.org/resource/nanopub/NP526.RAoYM3ySzlMrorcFMKOep89Mqcwyp4CTLvegQb0syCBX4</a></p>
+					<p>
+						<b>Link to the Nanopublication</b>: <a target="_blank"
+							rel="noopener noreferrer"
+							href="http://rdf.disgenet.org/nanopub-server/RAoYM3ySzlMrorcFMKOep89Mqcwyp4CTLvegQb0syCBX4">http://rdf.disgenet.org/resource/nanopub/NP526.RAoYM3ySzlMrorcFMKOep89Mqcwyp4CTLvegQb0syCBX4</a>
+					</p>
 
 
 
@@ -193,19 +202,46 @@
 								Information:</button>
 							<div class="content">
 
-								<p><b>Creation Date</b>: 2017-10-17</p>
-								<p><b>Right Holder</b>: IBIGroup</p>
-								<p><b>Platform</b>: <a target="_blank" rel="noopener noreferrer" href="http://rdf.disgenet.org/v5.0.0/void/disgenetv3.0rdf">DisGeNET</a></p>
+								<p>
+									<b>Creation Date</b>: 2017-10-17
+								</p>
+								<p>
+									<b>Right Holder</b>: IBIGroup
+								</p>
+								<p>
+									<b>Platform</b>: <a target="_blank" rel="noopener noreferrer"
+										href="http://rdf.disgenet.org/v5.0.0/void/disgenetv3.0rdf">DisGeNET</a>
+								</p>
 
-								<p><b>Version</b>: v5.0.0</p>
+								<p>
+									<b>Version</b>: v5.0.0
+								</p>
 								<button id="creators" class="collapsible">Creators:</button>
 								<div class="content">
-									<p><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0003-0169-8159">Núria Queralt Rosinach</a><br></p>
+									<p>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0003-0169-8159">Núria Queralt
+											Rosinach</a><br>
+									</p>
 								</div>
 
 								<button id="collaborators" class="collapsible">Collaborators:</button>
 								<div class="content">
-									<p><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0003-1244-7654">Janet Piñero</a><br><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0002-9383-528X">Laura I. Furlong</a><br><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0003-0169-8159">Núria Queralt Rosinach</a><br><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0002-7534-7661">Ferran Sanz</a><br><a target="_blank" rel="noopener noreferrer" href="http://orcid.org/0000-0001-5999-6269">Àlex Bravo Serrano</a><br></p>
+									<p>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0003-1244-7654">Janet Piñero</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0002-9383-528X">Laura I.
+											Furlong</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0003-0169-8159">Núria Queralt
+											Rosinach</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0002-7534-7661">Ferran Sanz</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="http://orcid.org/0000-0001-5999-6269">Àlex Bravo
+											Serrano</a><br>
+									</p>
 								</div>
 
 
@@ -214,32 +250,104 @@
 							<button id="assertion" class="collapsible">Assertion:</button>
 							<div class="content">
 
-								<p><p><b> Provenence Evidence Comment:</b> </p>Gene-disease associations inferred from text-mining the literature.<br><br><p><b> Assertion Description:</b> </p>[NAT1 is likely to be a fundamental translational repressor, and its aberrant editing could contribute to the potent oncogenesis induced by overexpression of APOBEC-1.]. Sentence from MEDLINE/PubMed, a database of the U.S. National Library of Medicine.
-<br><br><p><b> Assertion:</b> </p>[(gene-disease biomarker association) NAT1 N-acetyltransferase 1 - Carcinogenesis]<br><br><p><b> Reference links:</b> </p><p><a target="_blank" rel="noopener noreferrer" href="http://identifiers.org/ncbigene/9">NAT1 N-acetyltransferase 1</a></p><p><a target="_blank" rel="noopener noreferrer" href="http://linkedlifedata.com/resource/umls/id/C0596263">Carcinogenesis</a></p><p><a target="_blank" rel="noopener noreferrer" href="http://semanticscience.org/resource/SIO_001121">gene-disease biomarker association</a></p></p></p>
+								<p></p>
+								<p>
+									<b> Provenence Evidence Comment:</b>
+								</p>
+								Gene-disease associations inferred from text-mining the
+								literature.<br>
+								<br>
+								<p>
+									<b> Assertion Description:</b>
+								</p>
+								[NAT1 is likely to be a fundamental translational repressor, and
+								its aberrant editing could contribute to the potent oncogenesis
+								induced by overexpression of APOBEC-1.]. Sentence from
+								MEDLINE/PubMed, a database of the U.S. National Library of
+								Medicine. <br>
+								<br>
+								<p>
+									<b> Assertion:</b>
+								</p>
+								[(gene-disease biomarker association) NAT1 N-acetyltransferase 1
+								- Carcinogenesis]<br>
+								<br>
+								<p>
+									<b> Reference links:</b>
+								</p>
+								<p>
+									<a target="_blank" rel="noopener noreferrer"
+										href="http://identifiers.org/ncbigene/9">NAT1
+										N-acetyltransferase 1</a>
+								</p>
+								<p>
+									<a target="_blank" rel="noopener noreferrer"
+										href="http://linkedlifedata.com/resource/umls/id/C0596263">Carcinogenesis</a>
+								</p>
+								<p>
+									<a target="_blank" rel="noopener noreferrer"
+										href="http://semanticscience.org/resource/SIO_001121">gene-disease
+										biomarker association</a>
+								</p>
+								<p></p>
+								<p></p>
 
 							</div>
 
 							<button id="provanance" class="collapsible">Provenance:</button>
 							<div class="content">
 
-								<p><p><b>Assertion Generated by</b>: <a target="_blank" rel="noopener noreferrer" href="http://purl.obolibrary.org/obo/ECO_0000203">automatic assertion</a><br><a target="_blank" rel="noopener noreferrer" href="http://purl.obolibrary.org/obo/ECO_0000212">DisGeNET evidence - LITERATURE</a><br><b>Assertion Generation Description</b>: Gene-disease associations inferred from text-mining the literature.<br><br><b>Evidence Source</b>: <a target="_blank" rel="noopener noreferrer" href="http://identifiers.org/pubmed/9030685">http://identifiers.org/pubmed/9030685</a><p>Abstract:
-Transgene expression of the apolipoprotein B mRNA-editing enzyme (APOBEC-1)
-causes dysplasia and carcinoma in mouse and rabbit livers. Using a modified
-differential display technique, we identified a novel mRNA (NAT1 for novel
-APOBEC-1 target no. 1) that is extensively edited at multiple sites in these
-livers. The aberrant editing alters encoded amino acids, creates stop codons, and
-results in markedly reduced levels of the NAT1 protein in transgenic mouse
-livers. NAT1 is expressed ubiquitously and is extraordinarily conserved among
-species. It has homology to the carboxy-terminal portion of the eukaryotic
-translation initiation factor (eIF) 4G that binds eIF4A and eIF4E to form eIF4F. 
-NAT1 binds eIF4A but not eIF4E and inhibits both cap-dependent and
-cap-independent translation. NAT1 is likely to be a fundamental translational
-repressor, and its aberrant editing could contribute to the potent oncogenesis
-induced by overexpression of APOBEC-1.</p></p></p>
+								<p></p>
+								<p>
+									<b>Assertion Generated by</b>: <a target="_blank"
+										rel="noopener noreferrer"
+										href="http://purl.obolibrary.org/obo/ECO_0000203">automatic
+										assertion</a><br>
+									<a target="_blank" rel="noopener noreferrer"
+										href="http://purl.obolibrary.org/obo/ECO_0000212">DisGeNET
+										evidence - LITERATURE</a><br>
+									<b>Assertion Generation Description</b>: Gene-disease
+									associations inferred from text-mining the literature.<br>
+									<br>
+									<b>Evidence Source</b>: <a target="_blank"
+										rel="noopener noreferrer"
+										href="http://identifiers.org/pubmed/9030685">http://identifiers.org/pubmed/9030685</a>
+								</p>
+								<p>Abstract: Transgene expression of the apolipoprotein B
+									mRNA-editing enzyme (APOBEC-1) causes dysplasia and carcinoma
+									in mouse and rabbit livers. Using a modified differential
+									display technique, we identified a novel mRNA (NAT1 for novel
+									APOBEC-1 target no. 1) that is extensively edited at multiple
+									sites in these livers. The aberrant editing alters encoded
+									amino acids, creates stop codons, and results in markedly
+									reduced levels of the NAT1 protein in transgenic mouse livers.
+									NAT1 is expressed ubiquitously and is extraordinarily conserved
+									among species. It has homology to the carboxy-terminal portion
+									of the eukaryotic translation initiation factor (eIF) 4G that
+									binds eIF4A and eIF4E to form eIF4F. NAT1 binds eIF4A but not
+									eIF4E and inhibits both cap-dependent and cap-independent
+									translation. NAT1 is likely to be a fundamental translational
+									repressor, and its aberrant editing could contribute to the
+									potent oncogenesis induced by overexpression of APOBEC-1.</p>
+								<p></p>
+								<p></p>
 								<button id="evidauthors" class="collapsible">Evidence
 									Authors:</button>
 								<div class="content">
-									<p><a target="_blank" rel="noopener noreferrer" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Yamanaka%20S%5BAuthor%5D&cauthor_uid=9030685">S Yamanaka</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Poksay%20KS%5BAuthor%5D&cauthor_uid=9030685">KS Poksay</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Arnold%20KS%5BAuthor%5D&cauthor_uid=9030685">KS Arnold</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Innerarity%20TL%5BAuthor%5D&cauthor_uid=9030685">TL Innerarity</a><br></p>
+									<p>
+										<a target="_blank" rel="noopener noreferrer"
+											href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Yamanaka%20S%5BAuthor%5D&amp;cauthor_uid=9030685">S
+											Yamanaka</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Poksay%20KS%5BAuthor%5D&amp;cauthor_uid=9030685">KS
+											Poksay</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Arnold%20KS%5BAuthor%5D&amp;cauthor_uid=9030685">KS
+											Arnold</a><br>
+										<a target="_blank" rel="noopener noreferrer"
+											href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Innerarity%20TL%5BAuthor%5D&amp;cauthor_uid=9030685">TL
+											Innerarity</a><br>
+									</p>
 								</div>
 
 							</div>
@@ -251,6 +359,8 @@ induced by overexpression of APOBEC-1.</p></p></p>
 			</div>
 		</div>
 	</section>
+
+
 
 
 	<section class="container-white" id="nanopub-meta">
@@ -275,12 +385,12 @@ induced by overexpression of APOBEC-1.</p></p></p>
 							<form id="form_get_metafile" onsubmit="get_action(this);">
 								<div class="row">
 									<div class="col-md-6 only-item">
-										<a href="/nanocitation/download/meta.xml" target="_blank"
+										<a th:href="@{'/downloads/metaex1.xml'}" target="_blank"
 											rel="noopener noreferrer">Get XML</a>
 										<!-- th:href="@{'/downloads/metaex1.xml'}" download="metadataXmlExample" -->
 									</div>
 									<div class="col-md-6 only-item">
-										<a href="/nanocitation/download/meta.json" target="_blank"
+										<a th:href="@{'/downloads/metaex1.json'}" target="_blank"
 											rel="noopener noreferrer">Get JSON</a>
 										<!-- th:href="@{'/downloads/metaex1.json'}" download="metadataJsonExample" -->
 									</div>
@@ -290,10 +400,9 @@ induced by overexpression of APOBEC-1.</p></p></p>
 					</div>
 
 
+				</div>
+
 			</div>
-
-		</div>
-
 	</section>
 
 
@@ -345,7 +454,7 @@ induced by overexpression of APOBEC-1.</p></p></p>
 
 
 	<section class="footer" style="margin-bottom: 0px">
-		<img class="full-width" alt="Unipd" src="/nanocitation/img/bannerLogo.png" />
+		<img class="full-width" alt="Unipd" th:src="@{'/img/bannerLogo.png'}" />
 
 	</section>
 
@@ -363,11 +472,11 @@ induced by overexpression of APOBEC-1.</p></p></p>
 						.write('<script src="@{\'js/vendor/jquery-1.11.2.min.js\'}"><\/script>')
 	</script>
 
-	<script src="/nanocitation/js/vendor/bootstrap.min.js"></script>
+	<script th:src="@{'/js/vendor/bootstrap.min.js'}"></script>
 
-	<script src="/nanocitation/js/datepicker.js"></script>
-	<script src="/nanocitation/js/plugins.js"></script>
-	<script src="/nanocitation/js/main.js"></script>
+	<script th:src="@{'/js/datepicker.js'}"></script>
+	<script th:src="@{'/js/plugins.js'}"></script>
+	<script th:src="@{'/js/main.js'}"></script>
 </body>
 
 
