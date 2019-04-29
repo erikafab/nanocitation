@@ -49,7 +49,7 @@
 
 <!-- [![Nanocitation Screen][nc-logo]](https://example.com) -->
 
-Nanocitation is a web-based tool which is designed to automatically generate citations of nanopublications ([more details here](http://nanopub.org/)). We make available, here, the source code of the web application but we provide a deployed instance of it [here](https://getbootstrap.com).
+Nanocitation is a web-based tool which is designed to automatically generate citations of nanopublications ([more details here](http://nanopub.org/)). We make available, here, the source code of the web application but we provide a deployed instance of it [here](https://nanocitation.dei.unipd.it).
 The tool provide the following functionalities:
 * automatic creation of the text snippet of a single nanopublication
 * automatic creation of a human-readable landing page where to explore details of a given nanopublication
@@ -58,8 +58,8 @@ The tool provide the following functionalities:
 Beside the web application provides:
 * a web user interface providing:
   * a home page
-  * a request page to get nanopublication citations
-  * dynamic landing pages to explore the information extracted from given nanopublications
+  * a request page to get nanopublication citation text-snippets
+  * automatically generated dynamic landing pages to explore the information extracted from given nanopublications
 * RESTful API to access directly to the text-snippet and xml/json serialization of the citation data.
 
 
